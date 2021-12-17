@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'nowayregular';
+  src: url("../assets/fonts/Noway-Regular-webfont/noway-regular-webfont.eot");
+  src: url("../assets/fonts/Noway-Regular-webfont/noway-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Noway-Regular-webfont/noway-regular-webfont.woff2") format("woff2"), url("../assets/fonts/Noway-Regular-webfont/noway-regular-webfont.woff") format("woff"), url("../assets/fonts/Noway-Regular-webfont/noway-regular-webfont.ttf") format("truetype"), url("../assets/fonts/Noway-Regular-webfont/noway-regular-webfont.svg#nowayregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'nowaymedium';
+  src: url("../assets/fonts/Noway-Medium-webfont/noway-medium-webfont.eot");
+  src: url("../assets/fonts/Noway-Medium-webfont/noway-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Noway-Medium-webfont/noway-medium-webfont.woff2") format("woff2"), url("../assets/fonts/Noway-Medium-webfont/noway-medium-webfont.woff") format("woff"), url("../assets/fonts/Noway-Medium-webfont/noway-medium-webfont.ttf") format("truetype"), url("../assets/fonts/Noway-Medium-webfont/noway-medium-webfont.svg#nowaymedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'nowaybold';
+  src: url("../assets/fonts/Noway-Bold-webfont/noway-bold-webfont.eot");
+  src: url("../assets/fonts/Noway-Bold-webfont/noway-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Noway-Bold-webfont/noway-bold-webfont.woff2") format("woff2"), url("../assets/fonts/Noway-Bold-webfont/noway-bold-webfont.woff") format("woff"), url("../assets/fonts/Noway-Bold-webfont/noway-bold-webfont.ttf") format("truetype"), url("../assets/fonts/Noway-Bold-webfont/noway-bold-webfont.svg#nowaymedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'material-icons';
+  src: url("../assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot");
+  src: url("../assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2") format("woff2"), url("../assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff") format("woff"), url("../assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf") format("truetype"), url("../assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg#nowaymedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'Noticia Text', serif;
+  font-weight: normal; }
+
+body .sans-serif, .body-sans-serif, .rdl-caption, .rdl-checkbox label, .rdl-radio label, .rdl-dropdown-content .dropdown-item, h1, .h1, .rdl-archive-link, .filter-btn, .rdl-filter-btn-group .show-more, .btn-link, .rdl-select select, .rdl-table td, .rdl-table th, .rdl-btn-link-group, .rdl-content-spot time, .rdl-content-spot .bottom, .datepicker, figure.rdl-figure figcaption, .rdl-float-label-input, .rdl-textarea, .rdl-autocomplete, .rdl-focus-spot, .rdl-hero .inner-content p, .rdl-page-notification, .rdl-search-result .path, aside ul li a, .rdl-bread-crumb-wrapper, footer, .rdl-form .rdl-input-error, .rdl-login-screen, .rdl-login, .mobile-menu .main ul.mobile-nav > li > ul li a, .mobile-menu .secondary ul.mobile-nav li a, .rdl-search-form, .rdl-grid-container-wrapper .right-col, .e404 p {
+  font-family: 'nowayregular', sans-serif;
+  font-weight: normal; }
+
+.right-col strong, h2, .h2, h3, .h3, h4, .h4, .datepicker th, figure.rdl-figure .rdl-credits, .rdl-page-intro .content-header, aside ul li a.active, .rdl-header .top-nav a,
+.rdl-header .main-nav a,
+.rdl-header .mobile-nav a, .rdl-grid-container-wrapper .right-col strong {
+  font-family: 'nowaymedium', sans-serif;
+  font-weight: normal; }
+
+.body-bold-sans-serif, .rdl-confirmation-text p {
+  font-family: 'nowaybold', sans-serif;
+  font-weight: normal; }
+
+h1.display-text, .h1.display-text, .rdl-hero .inner-content h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: normal; }
+
+header{
+  font-family: 'nowaymedium',sans-serif;
+  font-weight: normal;
+}

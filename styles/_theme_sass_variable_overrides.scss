@@ -4,6 +4,8 @@
 // variables) you can do so here. Their CSS counterparts will include the changes you make here
 
 // $font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif: 'nowayregular',sans-serif !default;
+
 //
 // $gray-700: #495057 !default;  // Bootstrap $gray-700
 // $gray-100: #f8f9fa !default;  //           $gray-100
@@ -15,15 +17,23 @@
 // $red:    #CF4444 !default;
 // $dark:   darken($blue, 17%) !default;
 //
-// $theme-colors: (
-//   primary: $blue,
-//   secondary: $gray-700,
-//   success: $green,
-//   info: $cyan,
-//   warning: $yellow,
-//   danger: $red,
-//   light: $gray-100,
-//   dark: $dark
-// ) !default;
-//
-// $link-color: map-get($theme-colors, info) !default;
+$dark-blue-100: #002E70;
+$sky-blue-100: #96E2FD;
+$green-100: #26D466;
+$orange: #F4B664;
+$red-100: #B30018;
+$light-gray: #D6D6D6;
+$dark-blue:   darken($dark-blue-100, 17%) !default;
+
+ $theme-colors: (
+   primary: $dark-blue-100,
+   secondary: $sky-blue-100,
+   success: $green-100,
+   info: $sky-blue-100,
+   warning: $orange,
+   danger: $red-100,
+   light: $light-gray,
+   dark: $dark-blue
+ ) !default;
+
+$link-color: map-get($theme-colors, primary) !default;

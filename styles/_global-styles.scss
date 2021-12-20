@@ -2,3 +2,12 @@
 
 // imports the base global style
 @import '../../../styles/_global-styles.scss';
+
+.btn-secondary{
+  color: #002E70;
+}
+
+.btn-outline-secondary{
+  color: #002E70;
+  border-color: #002E70;
+}

@@ -150,3 +150,12 @@ footer .icon.icon-medium::before {
   height: 4rem;
   font-size: 4rem;
 }
+.zmdi-twitter:before {
+  content: '\f360';
+}
+.zmdi-linkedin:before {
+  content: '\f3f8';
+}
+.zmdi-facebook:before {
+  content: '\f343';
+}

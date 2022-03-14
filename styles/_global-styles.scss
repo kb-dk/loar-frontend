@@ -11,3 +11,7 @@
   color: #002E70;
   border-color: #002E70;
 }
+
+.dropdown-item.active, .dropdown-item:active{
+  color: white!important;
+}

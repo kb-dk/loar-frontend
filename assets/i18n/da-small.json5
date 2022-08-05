@@ -1,0 +1,28 @@
+{
+  "repository.title.prefix": "LOAR :: ",
+  "repository.title.prefixDSpace": "LOAR Angular ::",
+
+  "mydspace.breadcrumbs": "MitLOAR",
+  "mydspace.title": "MitLOAR",
+  "nav.mydspace": "MitLOAR",
+  "admin.registries.metadata.description": "The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas. However, LOAR requires the qualified Dublin Core schema.",
+  "dso-selector.set-scope.community.button": "Søg i hele LOAR",
+  "forgot-email.form.info": "Enter an account to change password.",
+  "forgot-email.form.email.hint": "If this address is an existing account, an email will be sent with further instructions.",
+  "forgot-email.form.submit": "Send",
+  "forgot-email.form.success.head": "Email sent",
+  "forgot-email.form.error.head": "Error when trying to send email",
+  "forgot-email.form.error.content": "An error occured when validating the following email address as an account: {{ email }}",
+  "home.top-level-communities.head": "Communities i LOAR",
+  "footer.link.dspace": "LOAR software",
+  "login.form.header": "Log ind i LOAR",
+  "logout.form.header": "Log ud af LOAR",
+  "menu.section.browse_global": "Browse LOAR",
+  "mydspace.search-form.placeholder": "Søg i MitLOAR...",
+  "nav.browse.header": "Hele LOAR",
+  "register-page.registration.info": "Opret en konto for at subscribe til collections for email updates, og for at submitte nye items i LOAR.",
+  "search.form.scope.all": "Hele LOAR",
+  "submission.import-external.page.hint": "Indtast en søgning ovenfor for at finde items fra internettet til import i LOAR.",
+  "submission.import-external.back-to-my-dspace": "Tilbage til MitLOAR",
+  title: "LOAR"
+}

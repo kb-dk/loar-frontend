@@ -1,0 +1,4166 @@
+{
+
+  "401.help": "Du er ikke autoriseret til at tilgå denne side. Du kan bruge knappen nedenfor for at komme tilbage til startsiden.",
+
+  "401.link.home-page": "Til startsiden",
+
+  "401.unauthorized": "uautoriseret",
+
+
+
+  "403.help": "Du har ikke tilladelse til at tilgå denne side. Du kan bruge knappen nedenfor for at komme tilbage til startsiden.",
+
+  "403.link.home-page": "Til startsiden",
+
+  "403.forbidden": "forbudt",
+
+  "500.page-internal-server-error": "Service ikke tilgængelig",
+
+  "500.help": "Serveren er midlertidigt ude af stand til at servicere din anmodning på grund af vedligeholdelsesnedetid eller kapacitetsproblemer. Prøv igen senere.",
+
+  "500.link.home-page": "Til startsiden",
+
+
+  "404.help": "Vi kan ikke finde den side, du leder efter. Siden kan være blevet flyttet eller slettet. Du kan bruge knappen nedenfor for at komme tilbage til startsiden.",
+
+  "404.link.home-page": "Til startsiden",
+
+  "404.page-not-found": "side ikke fundet",
+
+  "admin.curation-tasks.breadcrumbs": "Systemkurationsopgaver",
+
+  "admin.curation-tasks.title": "Systemkurationsopgaver",
+
+  "admin.curation-tasks.header": "Systemkurationsopgaver",
+
+  "admin.registries.bitstream-formats.breadcrumbs": "Format register",
+
+  "admin.registries.bitstream-formats.create.breadcrumbs": "Bitstream format",
+
+  "admin.registries.bitstream-formats.create.failure.content": "Der opstod en fejl under oprettelse af det nye bitstream-format.",
+
+  "admin.registries.bitstream-formats.create.failure.head": "Fejl",
+
+  "admin.registries.bitstream-formats.create.head": "Opret Bitstream-format",
+
+  "admin.registries.bitstream-formats.create.new": "Tilføj et nyt bitstream-format",
+
+  "admin.registries.bitstream-formats.create.success.content": "Det nye bitstream-format blev oprettet.",
+
+  "admin.registries.bitstream-formats.create.success.head": "Succes",
+
+  "admin.registries.bitstream-formats.delete.failure.amount": "Kunne ikke fjerne {{ amount }} format(er)",
+
+  "admin.registries.bitstream-formats.delete.failure.head": "Fejl",
+
+  "admin.registries.bitstream-formats.delete.success.amount": "Fjernet {{ amount }} format(er)",
+
+  "admin.registries.bitstream-formats.delete.success.head": "Succes",
+
+  "admin.registries.bitstream-formats.description": "Denne liste over bitstream-formater giver information om kendte formater og deres supportniveau.",
+
+  "admin.registries.bitstream-formats.edit.breadcrumbs": "Bitstream format",
+
+  "admin.registries.bitstream-formats.edit.description.hint": "",
+
+  "admin.registries.bitstream-formats.edit.description.label": "Beskrivelse",
+
+  "admin.registries.bitstream-formats.edit.extensions.hint": "Filtypenavne bruges til automatisk at identificere formatet på uploadede filer. Du kan indtaste flere filtypenavne for hvert format.",
+
+  "admin.registries.bitstream-formats.edit.extensions.label": "Filtypenavne",
+
+  "admin.registries.bitstream-formats.edit.extensions.placeholder": "Indtast en filtypenavn uden punktum",
+
+  "admin.registries.bitstream-formats.edit.failure.content": "Der opstod en fejl under redigering af bitstream-formatet.",
+
+  "admin.registries.bitstream-formats.edit.failure.head": "Fejl",
+
+  "admin.registries.bitstream-formats.edit.head": "Bitstream format: {{ format }}",
+
+  "admin.registries.bitstream-formats.edit.internal.hint": "Formater markeret som interne er skjult for brugeren og bruges til administrative formål.",
+
+  "admin.registries.bitstream-formats.edit.internal.label": "Intern",
+
+  "admin.registries.bitstream-formats.edit.mimetype.hint": "MIME-typen knyttet til dette format, behøver ikke at være unik.",
+
+  "admin.registries.bitstream-formats.edit.mimetype.label": "MIME Type",
+
+  "admin.registries.bitstream-formats.edit.shortBeskrivelse.hint": "Et unikt navn for dette format (f.eks. Microsoft Word XP eller Microsoft Word 2000)",
+
+  "admin.registries.bitstream-formats.edit.shortBeskrivelse.label": "Navn",
+
+  "admin.registries.bitstream-formats.edit.success.content": "Bitstream-formatet blev redigeret.",
+
+  "admin.registries.bitstream-formats.edit.success.head": "Succes",
+
+  "admin.registries.bitstream-formats.edit.supportLevel.hint": "Niveauet af support, din institution lover for dette format.",
+
+  "admin.registries.bitstream-formats.edit.supportLevel.label": "Support niveau",
+
+  "admin.registries.bitstream-formats.head": "Bitstream Format Register",
+
+  "admin.registries.bitstream-formats.no-items": "Ingen bitstream-formater at vise.",
+
+  "admin.registries.bitstream-formats.table.delete": "Slet valgte",
+
+  "admin.registries.bitstream-formats.table.deselect-all": "Fravælg alle",
+
+  "admin.registries.bitstream-formats.table.internal": "intern",
+
+  "admin.registries.bitstream-formats.table.mimetype": "MIME Type",
+
+  "admin.registries.bitstream-formats.table.name": "Navn",
+
+  "admin.registries.bitstream-formats.table.return": "Tilbage",
+
+  "admin.registries.bitstream-formats.table.supportLevel.KNOWN": "Kendt",
+
+  "admin.registries.bitstream-formats.table.supportLevel.SUPPORTED": "Supported",
+
+  "admin.registries.bitstream-formats.table.supportLevel.UNKNOWN": "Ukendt",
+
+  "admin.registries.bitstream-formats.table.supportLevel.head": "Support Niveau",
+
+  "admin.registries.bitstream-formats.title": "Bitstream Format Register",
+
+
+
+  "admin.registries.metadata.breadcrumbs": "Metadata register",
+
+  "admin.registries.metadata.description": "Metadataregistret vedligeholder en liste over alle metadatafelter, der er tilgængelige i depotet. Disse felter kan tildeles flere skemaer. DSpace kræver dog det kvalificerede Dublin Core-skema.",
+
+  "admin.registries.metadata.form.create": "Opret metadataskema",
+
+  "admin.registries.metadata.form.edit": "Rediger metadataskema",
+
+  "admin.registries.metadata.form.name": "Navn",
+
+  "admin.registries.metadata.form.namespace": "Navneområde",
+
+  "admin.registries.metadata.head": "Metadata Register",
+
+  "admin.registries.metadata.schemas.no-items": "Ingen metadata-skemaer at vise.",
+
+  "admin.registries.metadata.schemas.table.delete": "Slet valgte",
+
+  "admin.registries.metadata.schemas.table.id": "ID",
+
+  "admin.registries.metadata.schemas.table.name": "Navn",
+
+  "admin.registries.metadata.schemas.table.namespace": "Navneområde",
+
+  "admin.registries.metadata.title": "Metadata Register",
+
+
+
+  "admin.registries.schema.breadcrumbs": "Metadata skema",
+
+  "admin.registries.schema.description": "Dette er metadataskemaet for \"{{namespace}}\".",
+
+  "admin.registries.schema.fields.head": "Skema metadata felter",
+
+  "admin.registries.schema.fields.no-items": "Ingen metadatafelter at vise.",
+
+  "admin.registries.schema.fields.table.delete": "Slet valgte",
+
+  "admin.registries.schema.fields.table.field": "Felt",
+
+  "admin.registries.schema.fields.table.scopenote": "Scope Note",
+
+  "admin.registries.schema.form.create": "Opret metadatafelt",
+
+  "admin.registries.schema.form.edit": "Rediger metadatafelt",
+
+  "admin.registries.schema.form.element": "Element",
+
+  "admin.registries.schema.form.qualifier": "Qualifier",
+
+  "admin.registries.schema.form.scopenote": "Scope Note",
+
+  "admin.registries.schema.head": "Metadata Skema",
+
+  "admin.registries.schema.notification.created": "Metadataskema \"{{prefix}}\" blev oprettet",
+
+  "admin.registries.schema.notification.deleted.failure": "Kunne ikke slette {{amount}} metadataskemaer",
+
+  "admin.registries.schema.notification.deleted.success": "{{amount}} metadataskemaer blev slettet",
+
+  "admin.registries.schema.notification.edited": "Metadataskema \"{{prefix}}\" blev redigeret",
+
+  "admin.registries.schema.notification.failure": "Fejl",
+
+  "admin.registries.schema.notification.field.created": "Metadatafelt \"{{field}}\" blev oprettet",
+
+  "admin.registries.schema.notification.field.deleted.failure": "Kunne ikke slette {{amount}} metadatafelter",
+
+  "admin.registries.schema.notification.field.deleted.success": "{{amount}} metadatafelter blev slettet",
+
+  "admin.registries.schema.notification.field.edited": "Metadatafeltet \"{{field}}\" er blevet redigeret",
+
+  "admin.registries.schema.notification.success": "Succes",
+
+  "admin.registries.schema.return": "Tilbage",
+
+  "admin.registries.schema.title": "Metadata Skema Register",
+
+
+
+  "admin.access-control.epeople.actions.delete": "Slet EPerson",
+
+  "admin.access-control.epeople.actions.impersonate": "Foregiv at være EPerson",
+
+  "admin.access-control.epeople.actions.reset": "Nulstil kodeord",
+
+  "admin.access-control.epeople.actions.stop-impersonating": "Stop med at foregive at være EPerson",
+
+  "admin.access-control.epeople.breadcrumbs": "EPersoner",
+
+  "admin.access-control.epeople.title": "EPersoner",
+
+  "admin.access-control.epeople.head": "EPersoner",
+
+  "admin.access-control.epeople.search.head": "Søg",
+
+  "admin.access-control.epeople.button.see-all": "Browse alle",
+
+  "admin.access-control.epeople.search.scope.metadata": "Metadata",
+
+  "admin.access-control.epeople.search.scope.email": "E-mail (præcis)",
+
+  "admin.access-control.epeople.search.button": "Søg",
+
+  "admin.access-control.epeople.search.placeholder": "Søg personer...",
+
+  "admin.access-control.epeople.button.add": "Tilføj EPerson",
+
+  "admin.access-control.epeople.table.id": "ID",
+
+  "admin.access-control.epeople.table.name": "Navn",
+
+  "admin.access-control.epeople.table.email": "E-mail (præcis)",
+
+  "admin.access-control.epeople.table.edit": "Rediger",
+
+  "admin.access-control.epeople.table.edit.buttons.edit": "Rediger \"{{name}}\"",
+
+  "admin.access-control.epeople.table.edit.buttons.edit-disabled": "Du er ikke autoriseret til at redigere denne gruppe",
+
+  "admin.access-control.epeople.table.edit.buttons.remove": "Slet \"{{name}}\"",
+
+  "admin.access-control.epeople.no-items": "Ingen EPersoner at vise.",
+
+  "admin.access-control.epeople.form.create": "Opret EPerson",
+
+  "admin.access-control.epeople.form.edit": "Rediger EPerson",
+
+  "admin.access-control.epeople.form.firstNavn": "Fornavn",
+
+  "admin.access-control.epeople.form.lastNavn": "Efternavn",
+
+  "admin.access-control.epeople.form.email": "E-mail",
+
+  "admin.access-control.epeople.form.emailHint": "Skal være en gyldig e-mailadresse",
+
+  "admin.access-control.epeople.form.canLogIn": "Kan logge ind",
+
+  "admin.access-control.epeople.form.requireCertificate": "Kræver certifikat",
+
+  "admin.access-control.epeople.form.return": "Tilbage",
+
+  "admin.access-control.epeople.form.notification.created.success": "EPerson \"{{name}}\" blev oprettet",
+
+  "admin.access-control.epeople.form.notification.created.failure": "Kunne ikke oprette EPerson \"{{name}}\"",
+
+  "admin.access-control.epeople.form.notification.created.failure.emailInUse": "Kunne ikke oprette EPerson \"{{name}}\", e-mail \"{{email}}\" er allerede i brug.",
+
+  "admin.access-control.epeople.form.notification.edited.failure.emailInUse": "Kunne ikke redigere EPerson \"{{name}}\", e-mail \"{{email}}\" er allerede i brug.",
+
+  "admin.access-control.epeople.form.notification.edited.success": "Redigeret EPerson \"{{name}}\"",
+
+  "admin.access-control.epeople.form.notification.edited.failure": "Kunne ikke redigere EPerson \"{{name}}\"",
+
+  "admin.access-control.epeople.form.notification.deleted.success": "Slettet EPerson \"{{name}}\"",
+
+  "admin.access-control.epeople.form.notification.deleted.failure": "Kunne ikke slette EPerson \"{{name}}\"",
+
+  "admin.access-control.epeople.form.groupsEPersonIsMemberOf": "Medlem af disse grupper:",
+
+  "admin.access-control.epeople.form.table.id": "ID",
+
+  "admin.access-control.epeople.form.table.name": "Navn",
+
+  "admin.access-control.epeople.form.table.collectionOrCommunity": "Samling/Community",
+
+  "admin.access-control.epeople.form.memberOfNoGrupper": "Denne EPerson er ikke medlem af nogen grupper",
+
+  "admin.access-control.epeople.form.goToGrupper": "Tilføj til grupper",
+
+  "admin.access-control.epeople.notification.deleted.failure": "Kunne ikke slette EPerson: \"{{name}}\"",
+
+  "admin.access-control.epeople.notification.deleted.success": "Slettet EPerson: \"{{name}}\"",
+
+
+
+  "admin.access-control.groups.title": "Grupper",
+
+  "admin.access-control.groups.breadcrumbs": "Grupper",
+
+  "admin.access-control.groups.singleGroup.breadcrumbs": "Rediger Gruppe",
+
+  "admin.access-control.groups.title.singleGroup": "Rediger Gruppe",
+
+  "admin.access-control.groups.title.addGroup": "Ny Gruppe",
+
+  "admin.access-control.groups.addGroup.breadcrumbs": "Ny Gruppe",
+
+  "admin.access-control.groups.head": "Grupper",
+
+  "admin.access-control.groups.button.add": "Tilføj gruppe",
+
+  "admin.access-control.groups.search.head": "Søg i grupper",
+
+  "admin.access-control.groups.button.see-all": "Browse alle",
+
+  "admin.access-control.groups.search.button": "Søg",
+
+  "admin.access-control.groups.search.placeholder": "Søg i grupper...",
+
+  "admin.access-control.groups.table.id": "ID",
+
+  "admin.access-control.groups.table.name": "Navn",
+
+  "admin.access-control.groups.table.collectionOrCommunity": "Samling/Community",
+
+  "admin.access-control.groups.table.members": "Medlemmer",
+
+  "admin.access-control.groups.table.edit": "Rediger",
+
+  "admin.access-control.groups.table.edit.buttons.edit": "Rediger \"{{name}}\"",
+
+  "admin.access-control.groups.table.edit.buttons.remove": "Slet \"{{name}}\"",
+
+  "admin.access-control.groups.no-items": "Ingen grupper fundet med dette i deres navn eller dette som UUID",
+
+  "admin.access-control.groups.notification.deleted.success": "Gruppen \"{{name}}\" blev slettet",
+
+  "admin.access-control.groups.notification.deleted.failure.title": "Gruppen \"{{name}}\" kunne ikke slettes",
+
+  "admin.access-control.groups.notification.deleted.failure.content": "Årsag: \"{{cause}}\"",
+
+
+
+  "admin.access-control.groups.form.alert.permanent": "Denne gruppe er permanent, så den kan ikke redigeres eller slettes. Du kan stadig tilføje og fjerne gruppemedlemmer ved at bruge denne side.",
+
+  "admin.access-control.groups.form.alert.workflowGroup": "Denne gruppe kan ikke ændres eller slettes, fordi den svarer til en rolle i indsendelses- og arbejdsgangsprocessen i \"{{name}}\" {{comcol}}. Du kan slette den fra <a href='{{comcolRedigerRolesRoute}}'>\"assign roles\"</a> fanen på redigeringssiden {{comcol}}. Du kan stadig tilføje og fjerne gruppemedlemmer ved at bruge denne side.",
+
+  "admin.access-control.groups.form.head.create": "Opret gruppe",
+
+  "admin.access-control.groups.form.head.edit": "Rediger gruppe",
+
+  "admin.access-control.groups.form.groupNavn": "Gruppe navn",
+
+  "admin.access-control.groups.form.groupCommunity": "Community eller Samling",
+
+  "admin.access-control.groups.form.groupBeskrivelse": "Beskrivelse",
+
+  "admin.access-control.groups.form.notification.created.success": "Gruppen \"{{name}}\" blev oprettet",
+
+  "admin.access-control.groups.form.notification.created.failure": "Kunne ikke oprette gruppe \"{{name}}\"",
+
+  "admin.access-control.groups.form.notification.created.failure.groupNavnInUse": "Kunne ikke oprette gruppe med navn: \"{{name}}\", sørg for, at navnet ikke allerede er i brug.",
+
+  "admin.access-control.groups.form.notification.edited.failure": "Kunne ikke redigere gruppen \"{{name}}\"",
+
+  "admin.access-control.groups.form.notification.edited.failure.groupNavnInUse": "Navn \"{{name}}\" allerede i brug!",
+
+  "admin.access-control.groups.form.notification.edited.success": "Gruppen \"{{name}}\" er blevet redigeret",
+
+  "admin.access-control.groups.form.actions.delete": "Slet Gruppe",
+
+  "admin.access-control.groups.form.delete-group.modal.header": "Slet Gruppe \"{{ dsoNavn }}\"",
+
+  "admin.access-control.groups.form.delete-group.modal.info": "Er du sikker på, at du vil slette gruppen \"{{ dsoNavn }}\"",
+
+  "admin.access-control.groups.form.delete-group.modal.cancel": "Annuller",
+
+  "admin.access-control.groups.form.delete-group.modal.confirm": "Slet",
+
+  "admin.access-control.groups.form.notification.deleted.success": "Gruppen \"{{ name }}\" blev slettet",
+
+  "admin.access-control.groups.form.notification.deleted.failure.title": "Gruppen \"{{ name }}\" kunne ikke slettes",
+
+  "admin.access-control.groups.form.notification.deleted.failure.content": "Årsag: \"{{ cause }}\"",
+
+  "admin.access-control.groups.form.members-list.head": "EPersoner",
+
+  "admin.access-control.groups.form.members-list.search.head": "Tilføj EPersoner",
+
+  "admin.access-control.groups.form.members-list.button.see-all": "Browse alle",
+
+  "admin.access-control.groups.form.members-list.headMembers": "Nuværende medlemmer",
+
+  "admin.access-control.groups.form.members-list.search.scope.metadata": "Metadata",
+
+  "admin.access-control.groups.form.members-list.search.scope.email": "E-mail (præcis)",
+
+  "admin.access-control.groups.form.members-list.search.button": "Søg",
+
+  "admin.access-control.groups.form.members-list.table.id": "ID",
+
+  "admin.access-control.groups.form.members-list.table.name": "Navn",
+
+  "admin.access-control.groups.form.members-list.table.identity": "Identitet",
+
+  "admin.access-control.groups.form.members-list.table.email": "E-mail",
+
+  "admin.access-control.groups.form.members-list.table.netid": "NetID",
+
+  "admin.access-control.groups.form.members-list.table.edit": "Fjern / Tilføj",
+
+  "admin.access-control.groups.form.members-list.table.edit.buttons.remove": "Fjern medlem med navn \"{{name}}\"",
+
+  "admin.access-control.groups.form.members-list.notification.success.addMember": "Medlemmet \"{{name}}\" blev tilføjet",
+
+  "admin.access-control.groups.form.members-list.notification.failure.addMember": "Medlemmet \"{{name}}\" kunne ikke tilføjes",
+
+  "admin.access-control.groups.form.members-list.notification.success.deleteMember": "Medlemmet \"{{name}}\" blev slettet",
+
+  "admin.access-control.groups.form.members-list.notification.failure.deleteMember": "Kunne ikke slette medlem: \"{{name}}\"",
+
+  "admin.access-control.groups.form.members-list.table.edit.buttons.add": "Tilføj medlem med navn \"{{name}}\"",
+
+  "admin.access-control.groups.form.members-list.notification.failure.noActiveGroup": "Ingen aktuel aktiv gruppe, indsæt et navn først.",
+
+  "admin.access-control.groups.form.members-list.no-members-yet": "Ingen medlemmer i gruppen endnu, søg og tilføj.",
+
+  "admin.access-control.groups.form.members-list.no-items": "Ingen EPersoner fundet i den søgning",
+
+  "admin.access-control.groups.form.subgroups-list.notification.failure": "Noget gik galt: \"{{cause}}\"",
+
+  "admin.access-control.groups.form.subgroups-list.head": "Grupper",
+
+  "admin.access-control.groups.form.subgroups-list.search.head": "Tilføj undergruppe",
+
+  "admin.access-control.groups.form.subgroups-list.button.see-all": "Browse alle",
+
+  "admin.access-control.groups.form.subgroups-list.headSubgroups": "Nuværende undergrupper",
+
+  "admin.access-control.groups.form.subgroups-list.search.button": "Søg",
+
+  "admin.access-control.groups.form.subgroups-list.table.id": "ID",
+
+  "admin.access-control.groups.form.subgroups-list.table.name": "Navn",
+
+  "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Samling/Community",
+
+  "admin.access-control.groups.form.subgroups-list.table.edit": "Fjern / Tilføj",
+
+  "admin.access-control.groups.form.subgroups-list.table.edit.buttons.remove": "Fjern undergruppe med navn \"{{name}}\"",
+
+  "admin.access-control.groups.form.subgroups-list.table.edit.buttons.add": "Tilføj undergruppe med navn \"{{name}}\"",
+
+  "admin.access-control.groups.form.subgroups-list.table.edit.currentGroup": "Nuværende gruppe",
+
+  "admin.access-control.groups.form.subgroups-list.notification.success.addSubgroup": "Undergruppe \"{{name}}\" tilføjet",
+
+  "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": "Kunne ikke tilføje undergruppe: \"{{name}}\"",
+
+  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Undergruppe: \"{{name}}\" slettet",
+
+  "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": "Kunne ikke slette undergruppe: \"{{name}}\"",
+
+  "admin.access-control.groups.form.subgroups-list.notification.failure.noActiveGroup": "Ingen aktuel aktiv gruppe, indsæt et navn først.",
+
+  "admin.access-control.groups.form.subgroups-list.notification.failure.subgroupToAddIsActiveGroup": "Dette er den aktuelle gruppe, kan ikke tilføjes.",
+
+  "admin.access-control.groups.form.subgroups-list.no-items": "Ingen grupper fundet med dette i deres navn eller dette som UUID",
+
+  "admin.access-control.groups.form.subgroups-list.no-subgroups-yet": "Ingen undergrupper i gruppen endnu.",
+
+  "admin.access-control.groups.form.return": "Tilbage",
+
+
+
+  "admin.search.breadcrumbs": "Administrativ Søgning",
+
+  "admin.search.collection.edit": "Rediger",
+
+  "admin.search.community.edit": "Rediger",
+
+  "admin.search.item.delete": "Slet",
+
+  "admin.search.item.edit": "Rediger",
+
+  "admin.search.item.make-private": "Gør privat",
+
+  "admin.search.item.make-public": "Gør offentlig",
+
+  "admin.search.item.move": "Flyt",
+
+  "admin.search.item.reinstate": "Genindsæt",
+
+  "admin.search.item.withdraw": "Træk tilbage",
+
+  "admin.search.title": "Administrativ Søgning",
+
+  "administrativeView.search.results.head": "Administrativ Søgning",
+
+
+
+
+  "admin.workflow.breadcrumbs": "Administrer Workflow",
+
+  "admin.workflow.title": "Administrer Workflow",
+
+  "admin.workflow.item.workflow": "Workflow",
+
+  "admin.workflow.item.delete": "Slet",
+
+  "admin.workflow.item.send-back": "Send tilbage",
+
+
+
+  "admin.metadata-import.breadcrumbs": "Importer Metadata",
+
+  "admin.metadata-import.title": "Importer Metadata",
+
+  "admin.metadata-import.page.header": "Importer Metadata",
+
+  "admin.metadata-import.page.help": "Du kan droppe eller gennemse CSV-filer, der indeholder batch-metadatahandlinger på filer her",
+
+  "admin.metadata-import.page.dropMsg": "Drop en metadata-CSV for at importere",
+
+  "admin.metadata-import.page.dropMsgReplace": "Drop for at erstatte den metadata-CSV, der skal importeres",
+
+  "admin.metadata-import.page.button.return": "Tilbage",
+
+  "admin.metadata-import.page.button.proceed": "Fortsæt",
+
+  "admin.metadata-import.page.error.addFile": "Vælg fil først!",
+
+
+
+
+  "auth.errors.invalid-user": "Ugyldig e-mailadresse eller adgangskode.",
+
+  "auth.messages.expired": "Din session er udløbet. Log venligst ind igen.",
+
+  "auth.messages.token-refresh-failed": "Opdatering af dit sessionstoken mislykkedes. Log venligst ind igen.",
+
+
+
+  "bitstream.download.page": "Downloader nu {{bitstream}}..." ,
+
+
+
+  "bitstream.edit.authorizations.link": "Rediger bitstream's Politikker",
+
+  "bitstream.edit.authorizations.title": "Rediger bitstream's Politikker",
+
+  "bitstream.edit.return": "Tilbage",
+
+  "bitstream.edit.bitstream": "Bitstream: ",
+
+  "bitstream.edit.form.description.hint": "Giv eventuelt en kort beskrivelse af filen, for eksempel \"<i>Hovedartikel</i>\" eller \"<i>Eksperimentdataaflæsninger</i>\".",
+
+  "bitstream.edit.form.description.label": "Beskrivelse",
+
+  "bitstream.edit.form.embargo.hint": "Den første dag, hvorfra der er adgang. <b>Denne dato kan ikke ændres på denne formular.</b> For at indstille en embargodato for en bitstream skal du gå til fanen <i>Item Status</i>, klikke på <i>Autorisationer...</i >, opret eller rediger bitstreamens <i>READ</i>-politik, og indstil <i>Startdatoen</i> som ønsket.",
+
+  "bitstream.edit.form.embargo.label": "Embargo indtil bestemt dato",
+
+  "bitstream.edit.form.fileNavn.hint": "Skift filnavnet for bitstrømmen. Bemærk, at dette vil ændre den viste bitstream-URL, men gamle links vil stadig virke, så længe sekvens-id'et ikke ændres.",
+
+  "bitstream.edit.form.fileNavn.label": "Filnavn",
+
+  "bitstream.edit.form.newFormat.label": "Beskriv nyt format",
+
+  "bitstream.edit.form.newFormat.hint": "Det program, du brugte til at oprette filen, og versionsnummeret (f.eks. \"<i>ACMESoft SuperApp version 1.5</i>\").",
+
+  "bitstream.edit.form.primaryBitstream.label": "Primær bitstream",
+
+  "bitstream.edit.form.selectedFormat.hint": "Hvis formatet ikke er på listen ovenfor, <b>vælg \"format ikke på listen\" ovenfor</b> og beskriv det under \"Beskriv nyt format\".",
+
+  "bitstream.edit.form.selectedFormat.label": "Valgt Format",
+
+  "bitstream.edit.form.selectedFormat.unknown": "Format ikke på listen",
+
+  "bitstream.edit.notifications.error.format.title": "Der opstod en fejl med at gemme bitstrømmens format",
+
+  "bitstream.edit.form.iiifLabel.label": "IIIF Label",
+
+  "bitstream.edit.form.iiifLabel.hint": "Canvas label for dette billede. Hvis det ikke er angivet, vil default label blive brugt.",
+
+  "bitstream.edit.form.iiifToc.label": "IIIF Table of Contents (Indholdsfortegnelses)",
+
+  "bitstream.edit.form.iiifToc.hint": "Tilføjelse af tekst her gør dette til starten på et nyt table of contents (indholdsfortegnelses) område.",
+
+  "bitstream.edit.form.iiifWidth.label": "IIIF Canvas Width (Bredde)",
+
+  "bitstream.edit.form.iiifWidth.hint": "Canvas width (bredde) skal normalt passe til image width (billedets bredde).",
+
+  "bitstream.edit.form.iiifHeight.label": "IIIF Canvas Height (Højde)",
+
+  "bitstream.edit.form.iiifHeight.hint": "Canvas height (højde) skal normalt matche image height (billedets højde).",
+
+
+  "bitstream.edit.notifications.saved.content": "Dine ændringer af denne bitstream blev gemt.",
+
+  "bitstream.edit.notifications.saved.title": "Bitstream gemt",
+
+  "bitstream.edit.title": "Rediger bitstream",
+
+  "bitstream-request-a-copy.alert.canDownload1": "Du har allerede adgang til denne fil. Hvis du vil downloade filen, skal du klikke",
+
+  "bitstream-request-a-copy.alert.canDownload2": "her",
+
+  "bitstream-request-a-copy.header": "Anmod om en kopi af filen",
+
+  "bitstream-request-a-copy.intro": "Indtast følgende oplysninger for at anmode om en kopi af følgende post (item): ",
+
+  "bitstream-request-a-copy.intro.bitstream.one": "Anmoder om følgende fil:",
+  "bitstream-request-a-copy.intro.bitstream.all": "Anmoder om alle filer. ",
+
+  "bitstream-request-a-copy.name.label": "Navn *",
+
+  "bitstream-request-a-copy.name.error": "Navn er påkrævet",
+
+  "bitstream-request-a-copy.email.label": "Din e-mailadresse *",
+
+  "bitstream-request-a-copy.email.hint": "Denne e-mailadresse bruges til at sende filen.",
+
+  "bitstream-request-a-copy.email.error": "Indtast venligst en gyldig e-mailadresse.",
+
+  "bitstream-request-a-copy.allfiles.label": "Filer",
+
+  "bitstream-request-a-copy.files-all-false.label": "Kun den ønskede fil",
+
+  "bitstream-request-a-copy.files-all-true.label": "Alle filer (i dette item) i begrænset adgang",
+
+  "bitstream-request-a-copy.message.label": "Besked",
+
+  "bitstream-request-a-copy.return": "Tilbage",
+
+  "bitstream-request-a-copy.submit": "Anmod om kopi",
+
+  "bitstream-request-a-copy.submit.success": "Item-anmodningen blev sendt.",
+
+  "bitstream-request-a-copy.submit.error": "Noget gik galt med indsendelse af item-anmodningen.",
+
+
+
+  "browse.comcol.by.author": "Efter forfatter",
+
+  "browse.comcol.by.dateissued": "Efter udstedelsesdato",
+
+  "browse.comcol.by.subject": "Efter emne",
+
+  "browse.comcol.by.title": "Efter titel",
+
+  "browse.comcol.head": "Browse",
+
+  "browse.empty": "Ingen poster (items) at vise.",
+
+  "browse.metadata.author": "Forfatter",
+
+  "browse.metadata.dateissued": "Udstedelsesdato",
+
+  "browse.metadata.subject": "Emne",
+
+  "browse.metadata.title": "Titel",
+
+  "browse.metadata.author.breadcrumbs": "Browse efter Forfatter",
+
+  "browse.metadata.dateissued.breadcrumbs": "Browse efter Date",
+
+  "browse.metadata.subject.breadcrumbs": "Browse efter Emne",
+
+  "browse.metadata.title.breadcrumbs": "Browse efter Titel",
+
+  "browse.next.button": "Næste",
+
+  "browse.previous.button": "Forudgående",
+
+  "browse.startsWith.choose_start": "(Vælg start)",
+
+  "browse.startsWith.choose_year": "(Vælg år)",
+
+  "browse.startsWith.choose_year.label": "Vælg udgivelsesår",
+
+  "browse.startsWith.jump": "Flyt til et sted i indekset:",
+
+  "browse.startsWith.måneds.april": "April",
+
+  "browse.startsWith.måneds.august": "August",
+
+  "browse.startsWith.måneds.december": "December",
+
+  "browse.startsWith.måneds.february": "Februar",
+
+  "browse.startsWith.måneds.january": "Januar",
+
+  "browse.startsWith.måneds.july": "Juli",
+
+  "browse.startsWith.måneds.june": "Juni",
+
+  "browse.startsWith.måneds.march": "Marts",
+
+  "browse.startsWith.måneds.may": "Maj",
+
+  "browse.startsWith.måneds.none": "(Vælg måned)",
+
+  "browse.startsWith.måneds.none.label": "Vælg udgivelsesmåned",
+
+  "browse.startsWith.måneds.november": "November",
+
+  "browse.startsWith.måneds.october": "Oktober",
+
+  "browse.startsWith.måneds.september": "September",
+
+  "browse.startsWith.submit": "Browse",
+
+  "browse.startsWith.type_date": "Eller skriv en dato (år-måned) og klik på 'Browse'",
+
+  "browse.startsWith.type_date.label": "Eller skriv en dato (år-måned) og klik på knappen Browse",
+
+  "browse.startsWith.type_text": "Indtast de første par bogstaver, og klik på knappen Browse",
+
+  "browse.title": "Browser {{ collection }} efter {{ field }} {{ value }}",
+
+
+  "chips.remove": "Fjern chip",
+
+
+
+  "collection.create.head": "Opret en Samling (Samling)",
+
+  "collection.create.notifications.success": "Samlingen blev oprettet",
+
+  "collection.create.sub-head": "Opret en samling i området {{ parent }}",
+
+  "collection.curate.header": "Kurater Samling: {{collection}}",
+
+  "collection.delete.cancel": "Annuller",
+
+  "collection.delete.confirm": "Bekræft",
+
+  "collection.delete.processing": "Sletter",
+
+  "collection.delete.head": "Slet Samling",
+
+  "collection.delete.notification.fail": "Samling kunne ikke slettes",
+
+  "collection.delete.notification.success": "Slettet samling",
+
+  "collection.delete.text": "Er du sikker på, at du vil slette samling \"{{ dso }}\"",
+
+
+
+  "collection.edit.delete": "Slet denne samling",
+
+  "collection.edit.head": "Rediger Samling",
+
+  "collection.edit.breadcrumbs": "Rediger Samling",
+
+
+
+  "collection.edit.tabs.mapper.head": "Posttilknytning",
+
+  "collection.edit.tabs.item-mapper.title": "Rediger Samling - Posttilknytning",
+
+  "collection.edit.item-mapper.cancel": "Annuller",
+
+  "collection.edit.item-mapper.collection": "Samling: \"<b>{{name}}</b>\"",
+
+  "collection.edit.item-mapper.confirm": "Tilknyt valgte poster",
+
+  "collection.edit.item-mapper.description": "Dette er posttilknytningsværktøjet, der giver samlingsadministratorer mulighed for at tilknytte poster fra andre samlinger til denne samling. Du kan søge efter poster fra andre samlinger og tilknytte dem eller gennemse listen over aktuelt tilknyttede poster.",
+
+  "collection.edit.item-mapper.head": "Post Tilknytning - Tilknyt Poster fra Andre Samlinger",
+
+  "collection.edit.item-mapper.no-search": "Indtast venligst en forespørgsel for at søge",
+
+  "collection.edit.item-mapper.notifications.map.error.content": "Der opstod fejl ved tilknytning af {{amount}} poster.",
+
+  "collection.edit.item-mapper.notifications.map.error.head": "Tilknytningsfejl",
+
+  "collection.edit.item-mapper.notifications.map.success.content": "Tilknyttede {{amount}} poster.",
+
+  "collection.edit.item-mapper.notifications.map.success.head": "Tilknytning gennemført",
+
+  "collection.edit.item-mapper.notifications.unmap.error.content": "Der opstod fejl ved fjernelse af tilknytningerne af {{amount}} poster.",
+
+  "collection.edit.item-mapper.notifications.unmap.error.head": "Fejl ved fjernelse af tilknytninger",
+
+  "collection.edit.item-mapper.notifications.unmap.success.content": "Tilknytningerne af {{amount}} poster blev fjernet.",
+
+  "collection.edit.item-mapper.notifications.unmap.success.head": "Fjern tilknytning gennemført",
+
+  "collection.edit.item-mapper.remove": "Fjern udvalgte posttilknytninger",
+
+  "collection.edit.item-mapper.search-form.placeholder": "Søg i poster...",
+
+  "collection.edit.item-mapper.tabs.browse": "Browse tilknyttede poster",
+
+  "collection.edit.item-mapper.tabs.map": "Tilknyt nye poster",
+
+
+  "collection.edit.logo.delete.title": "Slet logo",
+
+  "collection.edit.logo.delete-undo.title": "Fortryd sletning",
+
+  "collection.edit.logo.label": "Samlingslogo",
+
+  "collection.edit.logo.notifications.add.error": "Upload af Samlingslogo mislykkedes. Verificer venligst indholdet, før du prøver igen.",
+
+  "collection.edit.logo.notifications.add.success": "Upload af Samlingslogo lykkedes.",
+
+  "collection.edit.logo.notifications.delete.success.title": "Logo slettet",
+
+  "collection.edit.logo.notifications.delete.success.content": "Slettet samlingslogo",
+
+  "collection.edit.logo.notifications.delete.error.title": "Fejl ved sletning af logo",
+
+  "collection.edit.logo.upload": "Drop et Samlingslogo for at uploade",
+
+
+
+  "collection.edit.notifications.success": "Samlingen er redigeret",
+
+  "collection.edit.return": "Tilbage",
+
+
+
+  "collection.edit.tabs.curate.head": "Kuratering",
+
+  "collection.edit.tabs.curate.title": "Rediger Samling - Kuratering",
+
+  "collection.edit.tabs.authorizations.head": "Autorisationer",
+
+  "collection.edit.tabs.authorizations.title": "Rediger Samling - Autorisationer",
+
+  "collection.edit.tabs.metadata.head": "Rediger Metadata",
+
+  "collection.edit.tabs.metadata.title": "Rediger Samling - Metadata",
+
+  "collection.edit.tabs.roles.head": "Tildel roller",
+
+  "collection.edit.tabs.roles.title": "Rediger Samling - Roller",
+
+  "collection.edit.tabs.source.external": "Denne samling henter sit indhold fra en ekstern kilde",
+
+  "collection.edit.tabs.source.form.errors.oaiSource.required": "Du skal angive et \"sæt id\" for målsamlingen.",
+
+  "collection.edit.tabs.source.form.harvestType": "Indhold høstes",
+
+  "collection.edit.tabs.source.form.head": "Konfigurer en ekstern kilde",
+
+  "collection.edit.tabs.source.form.metadataConfigId": "Metadata Format",
+
+  "collection.edit.tabs.source.form.oaiSetId": "OAI-specifik \"set id\"",
+
+  "collection.edit.tabs.source.form.oaiSource": "OAI Udbyder",
+
+  "collection.edit.tabs.source.form.options.harvestType.METADATA_AND_BITSTREAMS": "Høst metadata og bitstreams (kræver ORE-understøttelse)",
+
+  "collection.edit.tabs.source.form.options.harvestType.METADATA_AND_REF": "Høst metadata og referencer til bitstreams (kræver ORE-understøttelse)",
+
+  "collection.edit.tabs.source.form.options.harvestType.METADATA_ONLY": "Høst kun metadata",
+
+  "collection.edit.tabs.source.head": "Indholdskilde",
+
+  "collection.edit.tabs.source.notifications.discarded.content": "Dine ændringer blev kasseret. For at genindsætte dine ændringer skal du klikke på knappen 'Fortryd'",
+
+  "collection.edit.tabs.source.notifications.discarded.title": "Ændringer kasserede",
+
+  "collection.edit.tabs.source.notifications.invalid.content": "Dine ændringer blev ikke gemt. Sørg for, at alle felter er gyldige, før du gemmer.",
+
+  "collection.edit.tabs.source.notifications.invalid.title": "Metadata er ugyldige",
+
+  "collection.edit.tabs.source.notifications.saved.content": "Dine ændringer af denne samlings indholdskilde blev gemt.",
+
+  "collection.edit.tabs.source.notifications.saved.title": "Indholdskilde gemt",
+
+  "collection.edit.tabs.source.title": "Rediger Samling - Indholdskilde",
+
+
+
+  "collection.edit.template.add-button": "Tilføj",
+
+  "collection.edit.template.breadcrumbs": "Post-skabelon",
+
+  "collection.edit.template.cancel": "Annuller",
+
+  "collection.edit.template.delete-button": "Slet",
+
+  "collection.edit.template.edit-button": "Rediger",
+
+  "collection.edit.template.error": "Der opstod en fejl under hentning af skabelon-posten",
+
+  "collection.edit.template.head": "Rediger Skabelon-post for samling \"{{ samling }}\"",
+
+  "collection.edit.template.label": "Skabelon-post",
+
+  "collection.edit.template.loading": "Indlæser skabelon-post...",
+
+  "collection.edit.template.notifications.delete.error": "Kunne ikke slette post-skabelonen",
+
+  "collection.edit.template.notifications.delete.success": "Post-skabelonen slettet",
+
+  "collection.edit.template.title": "Rediger Skabelon-post",
+
+
+
+  "collection.form.abstract": "Kort Beskrivelse",
+
+  "collection.form.description": "Introduktionstekst (HTML)",
+
+  "collection.form.errors.title.required": "Indtast venligst et samlingsnavn",
+
+  "collection.form.license": "Licens",
+
+  "collection.form.provenance": "Proveniens",
+
+  "collection.form.rights": "Copyright tekst (HTML)",
+
+  "collection.form.tableofcontents": "Nyheder (HTML)",
+
+  "collection.form.title": "Navn",
+
+  "collection.form.entityType": "Enhedstype",
+
+
+
+  "collection.listelement.badge": "Samling",
+
+
+
+  "collection.page.browse.recent.head": "Seneste poster",
+
+  "collection.page.browse.recent.empty": "Ingen poster at vise",
+
+  "collection.page.edit": "Rediger denne samling",
+
+  "collection.page.handle": "Permanent URI for denne samling",
+
+  "collection.page.license": "Licens",
+
+  "collection.page.news": "Nyheder",
+
+
+
+  "collection.select.confirm": "Bekræft valgte",
+
+  "collection.select.empty": "Ingen samlinger at vise",
+
+  "collection.select.table.title": "Titel",
+
+
+  "collection.source.controls.head": "Harvest Controls",
+  "collection.source.controls.test.submit.error": "Noget gik galt with initiating the testing of the settings",
+  "collection.source.controls.test.failed": "The script to test the settings has failed",
+  "collection.source.controls.test.completed": "The script to test the settings has successfully finished",
+  "collection.source.controls.test.submit": "Test configuration",
+  "collection.source.controls.test.running": "Testing configuration...",
+  "collection.source.controls.import.submit.success": "The import has been successfully initiated",
+  "collection.source.controls.import.submit.error": "Noget gik galt with initiating the import",
+  "collection.source.controls.import.submit": "Import now",
+  "collection.source.controls.import.running": "Importing...",
+  "collection.source.controls.import.failed": "An error occurred during the import",
+  "collection.source.controls.import.completed": "The import completed",
+  "collection.source.controls.reset.submit.success": "The reset and reimport has been successfully initiated",
+  "collection.source.controls.reset.submit.error": "Noget gik galt with initiating the reset and reimport",
+  "collection.source.controls.reset.failed": "An error occurred during the reset and reimport",
+  "collection.source.controls.reset.completed": "The reset and reimport completed",
+  "collection.source.controls.reset.submit": "Reset and reimport",
+  "collection.source.controls.reset.running": "Resetting and reimporting...",
+  "collection.source.controls.harvest.status": "Harvest status:",
+  "collection.source.controls.harvest.start": "Harvest start time:",
+  "collection.source.controls.harvest.last": "Last time harvested:",
+  "collection.source.controls.harvest.message": "Harvest info:",
+  "collection.source.controls.harvest.no-information": "N/A",
+
+
+  "collection.source.update.notifications.error.content": "The provided settings have been tested and didn't work.",
+
+  "collection.source.update.notifications.error.title": "Server Error",
+
+
+
+  "communityList.breadcrumbs": "Community List",
+
+  "communityList.tabTitel": "Community List",
+
+  "communityList.title": "List of Communities",
+
+  "communityList.showMore": "Show More",
+
+
+
+  "community.create.head": "Create a Community",
+
+  "community.create.notifications.success": "Successfully created the Community",
+
+  "community.create.sub-head": "Create a Sub-Community for Community {{ parent }}",
+
+  "community.curate.header": "Curate Community: {{community}}",
+
+  "community.delete.cancel": "Annuller",
+
+  "community.delete.confirm": "Bekræft",
+
+  "community.delete.processing": "Sletter...",
+
+  "community.delete.head": "Slet Community",
+
+  "community.delete.notification.fail": "Community kunne ikke slettes",
+
+  "community.delete.notification.success": "Slettet community",
+
+  "community.delete.text": "Er du sikker på, at du vil slette community \"{{ dso }}\"",
+
+  "community.edit.delete": "Slet this community",
+
+  "community.edit.head": "Rediger Community",
+
+  "community.edit.breadcrumbs": "Rediger Community",
+
+
+  "community.edit.logo.delete.title": "Slet logo",
+
+  "community.edit.logo.delete-undo.title": "Undo delete",
+
+  "community.edit.logo.label": "Community logo",
+
+  "community.edit.logo.notifications.add.error": "Uploading Community logo failed. Please verify the content before retrying.",
+
+  "community.edit.logo.notifications.add.success": "Upload Community logo successful.",
+
+  "community.edit.logo.notifications.delete.success.title": "Logo deleted",
+
+  "community.edit.logo.notifications.delete.success.content": "Slettet the community's logo",
+
+  "community.edit.logo.notifications.delete.error.title": "Error deleting logo",
+
+  "community.edit.logo.upload": "Drop et Samlingslogo for at uploade",
+
+
+
+  "community.edit.notifications.success": "Successfully edited the Community",
+
+  "community.edit.notifications.unauthorized": "You do not have privileges to make this change",
+
+  "community.edit.notifications.error": "An error occured while editing the Community",
+
+  "community.edit.return": "Tilbage",
+
+
+
+  "community.edit.tabs.curate.head": "Curate",
+
+  "community.edit.tabs.curate.title": "Community Rediger - Curate",
+
+  "community.edit.tabs.metadata.head": "Rediger Metadata",
+
+  "community.edit.tabs.metadata.title": "Community Rediger - Metadata",
+
+  "community.edit.tabs.roles.head": "Assign Roles",
+
+  "community.edit.tabs.roles.title": "Community Rediger - Roles",
+
+  "community.edit.tabs.authorizations.head": "Forfatterizations",
+
+  "community.edit.tabs.authorizations.title": "Community Rediger - Forfatterizations",
+
+
+
+  "community.listelement.badge": "Community",
+
+
+
+  "comcol-role.edit.no-group": "None",
+
+  "comcol-role.edit.create": "Create",
+
+  "comcol-role.edit.restrict": "Restrict",
+
+  "comcol-role.edit.delete": "Slet",
+
+
+  "comcol-role.edit.community-admin.name": "Administrators",
+
+  "comcol-role.edit.collection-admin.name": "Administrators",
+
+
+  "comcol-role.edit.community-admin.description": "Community administrators can create sub-communities or collections, and manage or assign management for those sub-communities or collections. In addition, they decide who can submit items to any sub-collections, edit item metadata (after submission), and add (map) existing items from other collections (subject to authorization).",
+
+  "comcol-role.edit.collection-admin.description": "Samling administrators decide who can submit items to the collection, edit item metadata (after submission), and add (map) existing items from other collections to denne samling (subject to authorization for that collection).",
+
+
+  "comcol-role.edit.submitters.name": "Submitters",
+
+  "comcol-role.edit.submitters.description": "The E-People and Grupper that have permission to submit new items to denne samling.",
+
+
+  "comcol-role.edit.item_read.name": "Default item read access",
+
+  "comcol-role.edit.item_read.description": "E-People and Grupper that can read new items submitted to denne samling. Changes to this role are not retroactive. Existing items in the system will still be viewable by those who had read access at the time of their addition.",
+
+  "comcol-role.edit.item_read.anonymous-group": "Default read for incoming items is currently set to Anonymous.",
+
+
+  "comcol-role.edit.bitstream_read.name": "Default bitstream read access",
+
+  "comcol-role.edit.bitstream_read.description": "Community administrators can create sub-communities or collections, and manage or assign management for those sub-communities or collections. In addition, they decide who can submit items to any sub-collections, edit item metadata (after submission), and add (map) existing items from other collections (subject to authorization).",
+
+  "comcol-role.edit.bitstream_read.anonymous-group": "Default read for incoming bitstreams is currently set to Anonymous.",
+
+
+  "comcol-role.edit.editor.name": "Redigerors",
+
+  "comcol-role.edit.editor.description": "Redigerors are able to edit the metadata of incoming submissions, and then accept or reject them.",
+
+
+  "comcol-role.edit.finaleditor.name": "Final editors",
+
+  "comcol-role.edit.finaleditor.description": "Final editors are able to edit the metadata of incoming submissions, but will not be able to reject them.",
+
+
+  "comcol-role.edit.reviewer.name": "Reviewers",
+
+  "comcol-role.edit.reviewer.description": "Reviewers are able to accept or reject incoming submissions. However, they are not able to edit the submission's metadata.",
+
+
+
+  "community.form.abstract": "Short Beskrivelse",
+
+  "community.form.description": "Introductory text (HTML)",
+
+  "community.form.errors.title.required": "Please enter a community name",
+
+  "community.form.rights": "Copyright text (HTML)",
+
+  "community.form.tableofcontents": "Nyheder (HTML)",
+
+  "community.form.title": "Navn",
+
+  "community.page.edit": "Rediger this community",
+
+  "community.page.handle": "Permanent URI for this community",
+
+  "community.page.license": "Licens",
+
+  "community.page.news": "Nyheder",
+
+  "community.all-lists.head": "Subcommunities and Samlings",
+
+  "community.sub-collection-list.head": "Samlings of this Community",
+
+  "community.sub-community-list.head": "Communities of this Community",
+
+
+
+  "cookies.consent.accept-all": "Accept all",
+
+  "cookies.consent.accept-selected": "Accept valgte",
+
+  "cookies.consent.app.opt-out.description": "This app is loaded by default (but you can opt out)",
+
+  "cookies.consent.app.opt-out.title": "(opt-out)",
+
+  "cookies.consent.app.purpose": "purpose",
+
+  "cookies.consent.app.required.description": "This application is always required",
+
+  "cookies.consent.app.required.title": "(always required)",
+
+  "cookies.consent.update": "There were changes since your last visit, please update your consent.",
+
+  "cookies.consent.close": "Close",
+
+  "cookies.consent.decline": "Decline",
+
+  "cookies.consent.content-notice.description": "We collect and process your personal information for the following purposes: <strong>Authentication, Preferences, Acknowledgement and Statistics</strong>. <br/> To learn more, please read our {privacyPolicy}.",
+
+  "cookies.consent.content-notice.learnMore": "Customize",
+
+  "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
+
+  "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+
+  "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
+
+  "cookies.consent.content-modal.title": "Information that we collect",
+
+
+
+  "cookies.consent.app.title.authentication": "Authentication",
+
+  "cookies.consent.app.description.authentication": "Required for signing you in",
+
+
+  "cookies.consent.app.title.preferences": "Preferences",
+
+  "cookies.consent.app.description.preferences": "Required for saving your preferences",
+
+
+
+  "cookies.consent.app.title.acknowledgement": "Acknowledgement",
+
+  "cookies.consent.app.description.acknowledgement": "Required for saving your acknowledgements and consents",
+
+
+
+  "cookies.consent.app.title.google-analytics": "Google Analytics",
+
+  "cookies.consent.app.description.google-analytics": "Allows us to track statistical data",
+
+
+
+  "cookies.consent.purpose.functional": "Functional",
+
+  "cookies.consent.purpose.statistical": "Statistical",
+
+
+  "curation-task.task.checklinks.label":  "Check Links in Metadata",
+
+  "curation-task.task.noop.label": "NOOP",
+
+  "curation-task.task.profileformats.label": "Profile Bitstream Formats",
+
+  "curation-task.task.requiredmetadata.label": "Check for Required Metadata",
+
+  "curation-task.task.translate.label": "Microsoft Translator",
+
+  "curation-task.task.vscan.label": "Virus Scan",
+
+
+
+  "curation.form.task-select.label": "Task:",
+
+  "curation.form.submit": "Start",
+
+  "curation.form.submit.success.head": "The curation task has been started successfully",
+
+  "curation.form.submit.success.content": "You will be redirected to the corresponding process page.",
+
+  "curation.form.submit.error.head": "Running the curation task failed",
+
+  "curation.form.submit.error.content": "An error occured when trying to start the curation task.",
+
+  "curation.form.handle.label": "Handle:",
+
+  "curation.form.handle.hint": "Hint: Enter [your-handle-prefix]/0 to run a task across entire site (not all tasks may support this capability)",
+
+
+
+  "deny-request-copy.email.message": "Dear {{ recipientNavn }},\nIn response to your request I regret to inform you that it's not possible to send you a copy of the file(s) you have requested, concerning the document: \"{{ itemUrl }}\" ({{ itemNavn }}), of which I am an author.\n\nBest regards,\n{{ authorNavn }} <{{ authorE-mail }}>",
+
+  "deny-request-copy.email.subject": "Request copy of document",
+
+  "deny-request-copy.error": "An error occurred",
+
+  "deny-request-copy.header": "Deny document copy request",
+
+  "deny-request-copy.intro": "This message will be sent to the applicant of the request",
+
+  "deny-request-copy.success": "Successfully denied item request",
+
+
+
+  "dso.name.untitled": "Untitled",
+
+
+
+  "dso-selector.create.collection.head": "New collection",
+
+  "dso-selector.create.collection.sub-level": "Create a new collection in",
+
+  "dso-selector.create.community.head": "New community",
+
+  "dso-selector.create.community.sub-level": "Create a new community in",
+
+  "dso-selector.create.community.top-level": "Create a new top-level community",
+
+  "dso-selector.create.item.head": "New item",
+
+  "dso-selector.create.item.sub-level": "Create a new item in",
+
+  "dso-selector.create.submission.head": "New submission",
+
+  "dso-selector.edit.collection.head": "Rediger collection",
+
+  "dso-selector.edit.community.head": "Rediger community",
+
+  "dso-selector.edit.item.head": "Rediger item",
+
+  "dso-selector.error.title": "An error occurred searching for a {{ type }}",
+
+  "dso-selector.export-metadata.dspaceobject.head": "Export metadata from",
+
+  "dso-selector.no-results": "No {{ type }} found",
+
+  "dso-selector.placeholder": "Søg for a {{ type }}",
+
+  "dso-selector.select.collection.head": "Select a collection",
+
+  "dso-selector.set-scope.community.head": "Select a search scope",
+
+  "dso-selector.set-scope.community.button": "Søg all of DSpace",
+
+  "dso-selector.set-scope.community.input-header": "Søg for a community or collection",
+
+
+
+  "confirmation-modal.export-metadata.header": "Export metadata for {{ dsoNavn }}",
+
+  "confirmation-modal.export-metadata.info": "Are you sure you want to export metadata for {{ dsoNavn }}",
+
+  "confirmation-modal.export-metadata.cancel": "Annuller",
+
+  "confirmation-modal.export-metadata.confirm": "Export",
+
+  "confirmation-modal.delete-eperson.header": "Slet EPerson \"{{ dsoNavn }}\"",
+
+  "confirmation-modal.delete-eperson.info": "Er du sikker på, at du vil slette EPerson \"{{ dsoNavn }}\"",
+
+  "confirmation-modal.delete-eperson.cancel": "Annuller",
+
+  "confirmation-modal.delete-eperson.confirm": "Slet",
+
+
+  "error.bitstream": "Error fetching bitstream",
+
+  "error.browse-by": "Error fetching items",
+
+  "error.collection": "Error fetching collection",
+
+  "error.collections": "Error fetching collections",
+
+  "error.community": "Error fetching community",
+
+  "error.identifier": "No item found for the identifier",
+
+  "error.default": "Error",
+
+  "error.item": "Error fetching item",
+
+  "error.items": "Error fetching items",
+
+  "error.objects": "Error fetching objects",
+
+  "error.recent-submissions": "Error fetching recent submissions",
+
+  "error.search-results": "Error fetching search results",
+
+  "error.invalid-search-query": "Søg query is not valid. Please check <a href=\"https://solr.apache.org/guide/query-syntax-and-parsing.html\" target=\"_blank\">Solr query syntax</a> best practices for further information about this error.",
+
+  "error.sub-collections": "Error fetching sub-collections",
+
+  "error.sub-communities": "Error fetching sub-communities",
+
+  "error.submission.sections.init-form-error": "An error occurred during section initialize, please check your input-form configuration. Details are below : <br> <br>",
+
+  "error.top-level-communities": "Error fetching top-level communities",
+
+  "error.validation.license.notgranted": "You must grant this license to complete your submission. If you are unable to grant this license at this time you may save your work and return later or remove the submission.",
+
+  "error.validation.pattern": "This input is restricted by the current pattern: {{ pattern }}.",
+
+  "error.validation.filerequired": "The file upload is mandatory",
+
+  "error.validation.required": "This field is required",
+
+  "error.validation.NotValidE-mail": "This E-mail is not a valid email",
+
+  "error.validation.emailTaken": "This E-mail is already taken",
+
+  "error.validation.groupExists": "This group already exists",
+
+
+  "file-section.error.header": "Error obtaining files for this item",
+
+
+
+  "footer.copyright": "copyright © 2002-{{ year }}",
+
+  "footer.link.dspace": "DSpace software",
+
+  "footer.link.lyrasis": "LYRASIS",
+
+  "footer.link.cookies": "Cookie settings",
+
+  "footer.link.privacy-policy": "Privacy policy",
+
+  "footer.link.end-user-agreement":"End User Agreement",
+
+  "footer.link.feedback":"Send Feedback",
+
+
+
+  "forgot-email.form.header": "Forgot Password",
+
+  "forgot-email.form.info": "Enter Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+
+  "forgot-email.form.email": "E-mail Address *",
+
+  "forgot-email.form.email.error.required": "Please fill in an email address",
+
+  "forgot-email.form.email.error.pattern": "Please fill in a valid email address",
+
+  "forgot-email.form.email.hint": "This address will be verified and used as your login name.",
+
+  "forgot-email.form.submit": "Save",
+
+  "forgot-email.form.success.head": "Verification email sent",
+
+  "forgot-email.form.success.content": "An email has been sent to {{ email }} containing a special URL and further instructions.",
+
+  "forgot-email.form.error.head": "Error when trying to register email",
+
+  "forgot-email.form.error.content": "An error occured when registering the following email address: {{ email }}",
+
+
+
+  "forgot-password.title": "Forgot Password",
+
+  "forgot-password.form.head": "Forgot Password",
+
+  "forgot-password.form.info": "Enter a new password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.",
+
+  "forgot-password.form.card.security": "Security",
+
+  "forgot-password.form.identification.header": "Identify",
+
+  "forgot-password.form.identification.email": "E-mail address: ",
+
+  "forgot-password.form.label.password": "Password",
+
+  "forgot-password.form.label.passwordrepeat": "Retype to confirm",
+
+  "forgot-password.form.error.empty-password": "Please enter a password in the box below.",
+
+  "forgot-password.form.error.matching-passwords": "The passwords do not match.",
+
+  "forgot-password.form.error.password-length": "The password should be at least 6 characters long.",
+
+  "forgot-password.form.notification.error.title": "Error when trying to submit new password",
+
+  "forgot-password.form.notification.success.content": "The password reset was successful. You have been logged in as the created user.",
+
+  "forgot-password.form.notification.success.title": "Password reset completed",
+
+  "forgot-password.form.submit": "Submit password",
+
+
+
+  "form.add": "Tilføj more",
+
+  "form.add-help": "Click here to add the current entry and to add another one",
+
+  "form.cancel": "Annuller",
+
+  "form.clear": "Clear",
+
+  "form.clear-help": "Click here to remove the valgte value",
+
+  "form.discard": "Discard",
+
+  "form.drag": "Drag",
+
+  "form.edit": "Rediger",
+
+  "form.edit-help": "Click here to edit the valgte value",
+
+  "form.first-name": "Fornavn",
+
+  "form.group-collapse": "Collapse",
+
+  "form.group-collapse-help": "Click here to collapse",
+
+  "form.group-expand": "Expand",
+
+  "form.group-expand-help": "Click here to expand and add more elements",
+
+  "form.last-name": "Efternavn",
+
+  "form.loading": "Loading...",
+
+  "form.lookup": "Lookup",
+
+  "form.lookup-help": "Click here to look up an existing relation",
+
+  "form.no-results": "No results found",
+
+  "form.no-value": "No value entered",
+
+  "form.other-information": {},
+
+  "form.remove": "Fjern",
+
+  "form.save": "Save",
+
+  "form.save-help": "Save changes",
+
+  "form.search": "Søg",
+
+  "form.search-help": "Click here to look for an existing correspondence",
+
+  "form.submit": "Save",
+
+  "form.repeatable.sort.tip": "Drop the item in the new position",
+
+
+
+  "grant-deny-request-copy.deny": "Don't send copy",
+
+  "grant-deny-request-copy.email.back": "Tilbage",
+
+  "grant-deny-request-copy.email.message": "Message",
+
+  "grant-deny-request-copy.email.message.empty": "Please enter a message",
+
+  "grant-deny-request-copy.email.permissions.info": "You may use this occasion to reconsider the access restrictions on the document, to avoid having to respond to these requests. If you’d like to ask the repository administrators to remove these restrictions, please check the box below.",
+
+  "grant-deny-request-copy.email.permissions.label": "Change to open access",
+
+  "grant-deny-request-copy.email.send": "Send",
+
+  "grant-deny-request-copy.email.subject": "Emne",
+
+  "grant-deny-request-copy.email.subject.empty": "Please enter a subject",
+
+  "grant-deny-request-copy.grant": "Send copy",
+
+  "grant-deny-request-copy.header": "Document copy request",
+
+  "grant-deny-request-copy.home-page": "Take me to the home page",
+
+  "grant-deny-request-copy.intro1": "If you are one of the authors of the document <a href='{{ url }}'>{{ name }}</a>, then please use one of the options below to respond to the user's request.",
+
+  "grant-deny-request-copy.intro2": "After choosing an option, you will be presented with a suggested email reply which you may edit.",
+
+  "grant-deny-request-copy.processed": "This request has already been processed. You can use the button below to get back to the home page.",
+
+
+
+  "grant-request-copy.email.message": "Dear {{ recipientNavn }},\nIn response to your request I have the pleasure to send you in attachment a copy of the file(s) concerning the document: \"{{ itemUrl }}\" ({{ itemNavn }}), of which I am an author.\n\nBest regards,\n{{ authorNavn }} <{{ authorE-mail }}>",
+
+  "grant-request-copy.email.subject": "Request copy of document",
+
+  "grant-request-copy.error": "An error occurred",
+
+  "grant-request-copy.header": "Grant document copy request",
+
+  "grant-request-copy.intro": "This message will be sent to the applicant of the request. The requested document(s) will be attached.",
+
+  "grant-request-copy.success": "Successfully granted item request",
+
+
+
+  "home.description": "",
+
+  "home.breadcrumbs": "Home",
+
+  "home.search-form.placeholder": "Søg the repository ...",
+
+  "home.title": "Home",
+
+  "home.top-level-communities.head": "Communities in DSpace",
+
+  "home.top-level-communities.help": "Select a community to browse its collections.",
+
+
+
+  "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
+
+  "info.end-user-agreement.accept.error": "An error occurred accepting the End User Agreement",
+
+  "info.end-user-agreement.accept.success": "Successfully updated the End User Agreement",
+
+  "info.end-user-agreement.breadcrumbs": "End User Agreement",
+
+  "info.end-user-agreement.buttons.cancel": "Annuller",
+
+  "info.end-user-agreement.buttons.save": "Save",
+
+  "info.end-user-agreement.head": "End User Agreement",
+
+  "info.end-user-agreement.title": "End User Agreement",
+
+  "info.privacy.breadcrumbs": "Privacy Statement",
+
+  "info.privacy.head": "Privacy Statement",
+
+  "info.privacy.title": "Privacy Statement",
+
+  "info.feedback.breadcrumbs": "Feedback",
+
+  "info.feedback.head": "Feedback",
+
+  "info.feedback.title": "Feedback",
+
+  "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+
+  "info.feedback.email_help": "This address will be used to follow up on your feedback.",
+
+  "info.feedback.send": "Send Feedback",
+
+  "info.feedback.comments": "Comments",
+
+  "info.feedback.email-label": "Your E-mail",
+
+  "info.feedback.create.success" : "Feedback Sent Successfully!",
+
+  "info.feedback.error.email.required" : "A valid email address is required",
+
+  "info.feedback.error.message.required" : "A comment is required",
+
+  "info.feedback.page-label" : "Page",
+
+  "info.feedback.page_help" : "Tha page related to your feedback",
+
+
+
+  "item.alerts.private": "This item is private",
+
+  "item.alerts.withdrawn": "This item has been withdrawn",
+
+
+
+  "item.edit.authorizations.heading": "With this editor you can view and alter the policies of an item, plus alter policies of individual item components: bundles and bitstreams. Briefly, an item is a container of bundles, and bundles are containers of bitstreams. Containers usually have ADD/REMOVE/READ/WRITE policies, while bitstreams only have READ/WRITE policies.",
+
+  "item.edit.authorizations.title": "Rediger item's Politikker",
+
+
+
+  "item.badge.private": "Private",
+
+  "item.badge.withdrawn": "Træk tilbagen",
+
+
+
+  "item.bitstreams.upload.bundle": "Bundle",
+
+  "item.bitstreams.upload.bundle.placeholder": "Select a bundle",
+
+  "item.bitstreams.upload.bundle.new": "Create bundle",
+
+  "item.bitstreams.upload.bundles.empty": "This item doesn\'t contain any bundles to upload a bitstream to.",
+
+  "item.bitstreams.upload.cancel": "Annuller",
+
+  "item.bitstreams.upload.drop-message": "Drop a file to upload",
+
+  "item.bitstreams.upload.item": "Item: ",
+
+  "item.bitstreams.upload.notifications.bundle.created.content": "Successfully created new bundle.",
+
+  "item.bitstreams.upload.notifications.bundle.created.title": "Created bundle",
+
+  "item.bitstreams.upload.notifications.upload.failed": "Upload failed. Please verify the content before retrying.",
+
+  "item.bitstreams.upload.title": "Upload bitstream",
+
+
+
+  "item.edit.bitstreams.bundle.edit.buttons.upload": "Upload",
+
+  "item.edit.bitstreams.bundle.displaying": "Currently displaying {{ amount }} bitstreams of {{ total }}.",
+
+  "item.edit.bitstreams.bundle.load.all": "Load all ({{ total }})",
+
+  "item.edit.bitstreams.bundle.load.more": "Load more",
+
+  "item.edit.bitstreams.bundle.name": "BUNDLE: {{ name }}",
+
+  "item.edit.bitstreams.discard-button": "Discard",
+
+  "item.edit.bitstreams.edit.buttons.download": "Download",
+
+  "item.edit.bitstreams.edit.buttons.drag": "Drag",
+
+  "item.edit.bitstreams.edit.buttons.edit": "Rediger",
+
+  "item.edit.bitstreams.edit.buttons.remove": "Fjern",
+
+  "item.edit.bitstreams.edit.buttons.undo": "Undo changes",
+
+  "item.edit.bitstreams.empty": "This item doesn't contain any bitstreams. Click the upload button to create one.",
+
+  "item.edit.bitstreams.headers.actions": "Actions",
+
+  "item.edit.bitstreams.headers.bundle": "Bundle",
+
+  "item.edit.bitstreams.headers.description": "Beskrivelse",
+
+  "item.edit.bitstreams.headers.format": "Format",
+
+  "item.edit.bitstreams.headers.name": "Navn",
+
+  "item.edit.bitstreams.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
+
+  "item.edit.bitstreams.notifications.discarded.title": "Changes discarded",
+
+  "item.edit.bitstreams.notifications.move.failed.title": "Error moving bitstreams",
+
+  "item.edit.bitstreams.notifications.move.saved.content": "Your move changes to this item's bitstreams and bundles have been saved.",
+
+  "item.edit.bitstreams.notifications.move.saved.title": "Flyt changes saved",
+
+  "item.edit.bitstreams.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+
+  "item.edit.bitstreams.notifications.outdated.title": "Changes outdated",
+
+  "item.edit.bitstreams.notifications.remove.failed.title": "Error deleting bitstream",
+
+  "item.edit.bitstreams.notifications.remove.saved.content": "Your removal changes to this item's bitstreams have been saved.",
+
+  "item.edit.bitstreams.notifications.remove.saved.title": "Removal changes saved",
+
+  "item.edit.bitstreams.reinstate-button": "Undo",
+
+  "item.edit.bitstreams.save-button": "Save",
+
+  "item.edit.bitstreams.upload-button": "Upload",
+
+
+
+  "item.edit.delete.cancel": "Annuller",
+
+  "item.edit.delete.confirm": "Slet",
+
+  "item.edit.delete.description": "Are you sure this item should be completely deleted? Caution: At present, no tombstone would be left.",
+
+  "item.edit.delete.error": "An error occurred while deleting the item",
+
+  "item.edit.delete.header": "Slet item: {{ id }}",
+
+  "item.edit.delete.success": "The item has been deleted",
+
+  "item.edit.head": "Rediger Item",
+
+  "item.edit.breadcrumbs": "Rediger Item",
+
+  "item.edit.tabs.disabled.tooltip": "You're not authorized to access this tab",
+
+
+  "item.edit.tabs.mapper.head": "Samling Mapper",
+
+  "item.edit.tabs.item-mapper.title": "Item Rediger - Samling Mapper",
+
+  "item.edit.item-mapper.buttons.add": "Map item to valgte collections",
+
+  "item.edit.item-mapper.buttons.remove": "Fjern item's mapping for valgte collections",
+
+  "item.edit.item-mapper.cancel": "Annuller",
+
+  "item.edit.item-mapper.description": "This is the item mapper tool that allows administrators to map this item to other collections. You can search for collections and map them, or browse the list of collections the item is currently mapped to.",
+
+  "item.edit.item-mapper.head": "Post Tilknytning - Map Item to Samlings",
+
+  "item.edit.item-mapper.item": "Item: \"<b>{{name}}</b>\"",
+
+  "item.edit.item-mapper.no-search": "Please enter a query to search",
+
+  "item.edit.item-mapper.notifications.add.error.content": "Errors occurred for mapping of item to {{amount}} collections.",
+
+  "item.edit.item-mapper.notifications.add.error.head": "Mapping errors",
+
+  "item.edit.item-mapper.notifications.add.success.content": "Successfully mapped item to {{amount}} collections.",
+
+  "item.edit.item-mapper.notifications.add.success.head": "Mapping completed",
+
+  "item.edit.item-mapper.notifications.remove.error.content": "Errors occurred for the removal of the mapping to {{amount}} collections.",
+
+  "item.edit.item-mapper.notifications.remove.error.head": "Removal of mapping errors",
+
+  "item.edit.item-mapper.notifications.remove.success.content": "Successfully removed mapping of item to {{amount}} collections.",
+
+  "item.edit.item-mapper.notifications.remove.success.head": "Removal of mapping completed",
+
+  "item.edit.item-mapper.search-form.placeholder": "Søg collections...",
+
+  "item.edit.item-mapper.tabs.browse": "Browse mapped collections",
+
+  "item.edit.item-mapper.tabs.map": "Map new collections",
+
+
+
+  "item.edit.metadata.add-button": "Tilføj",
+
+  "item.edit.metadata.discard-button": "Discard",
+
+  "item.edit.metadata.edit.buttons.edit": "Rediger",
+
+  "item.edit.metadata.edit.buttons.remove": "Fjern",
+
+  "item.edit.metadata.edit.buttons.undo": "Undo changes",
+
+  "item.edit.metadata.edit.buttons.unedit": "Stop editing",
+
+  "item.edit.metadata.empty": "The item currently doesn't contain any metadata. Click Tilføj to start adding a metadata value.",
+
+  "item.edit.metadata.headers.edit": "Rediger",
+
+  "item.edit.metadata.headers.field": "Field",
+
+  "item.edit.metadata.headers.language": "Lang",
+
+  "item.edit.metadata.headers.value": "Value",
+
+  "item.edit.metadata.metadatafield.invalid": "Please choose a valid metadata field",
+
+  "item.edit.metadata.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
+
+  "item.edit.metadata.notifications.discarded.title": "Changed discarded",
+
+  "item.edit.metadata.notifications.error.title": "An error occurred",
+
+  "item.edit.metadata.notifications.invalid.content": "Your changes were not saved. Please make sure all fields are valid before you save.",
+
+  "item.edit.metadata.notifications.invalid.title": "Metadata invalid",
+
+  "item.edit.metadata.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+
+  "item.edit.metadata.notifications.outdated.title": "Changed outdated",
+
+  "item.edit.metadata.notifications.saved.content": "Your changes to this item's metadata were saved.",
+
+  "item.edit.metadata.notifications.saved.title": "Metadata saved",
+
+  "item.edit.metadata.reinstate-button": "Undo",
+
+  "item.edit.metadata.save-button": "Save",
+
+
+
+  "item.edit.modify.overview.field": "Field",
+
+  "item.edit.modify.overview.language": "Language",
+
+  "item.edit.modify.overview.value": "Value",
+
+
+
+  "item.edit.move.cancel": "Tilbage",
+
+  "item.edit.move.save-button": "Save",
+
+  "item.edit.move.discard-button": "Discard",
+
+  "item.edit.move.description": "Select the collection you wish to move this item to. To narrow down the list of displayed collections, you can enter a search query in the box.",
+
+  "item.edit.move.error": "An error occurred when attempting to move the item",
+
+  "item.edit.move.head": "Flyt item: {{id}}",
+
+  "item.edit.move.inheritpolicies.checkbox": "Inherit policies",
+
+  "item.edit.move.inheritpolicies.description": "Inherit the default policies of the destination collection",
+
+  "item.edit.move.move": "Flyt",
+
+  "item.edit.move.processing": "Moving...",
+
+  "item.edit.move.search.placeholder": "Enter a search query to look for collections",
+
+  "item.edit.move.success": "The item has been moved successfully",
+
+  "item.edit.move.title": "Flyt item",
+
+
+
+  "item.edit.private.cancel": "Annuller",
+
+  "item.edit.private.confirm": "Make it Private",
+
+  "item.edit.private.description": "Are you sure this item should be made private in the archive?",
+
+  "item.edit.private.error": "An error occurred while making the item private",
+
+  "item.edit.private.header": "Make item private: {{ id }}",
+
+  "item.edit.private.success": "The item is now private",
+
+
+
+  "item.edit.public.cancel": "Annuller",
+
+  "item.edit.public.confirm": "Make it Public",
+
+  "item.edit.public.description": "Are you sure this item should be made public in the archive?",
+
+  "item.edit.public.error": "An error occurred while making the item public",
+
+  "item.edit.public.header": "Make item public: {{ id }}",
+
+  "item.edit.public.success": "The item is now public",
+
+
+
+  "item.edit.reinstate.cancel": "Annuller",
+
+  "item.edit.reinstate.confirm": "Genindsæt",
+
+  "item.edit.reinstate.description": "Are you sure this item should be reinstated to the archive?",
+
+  "item.edit.reinstate.error": "An error occurred while reinstating the item",
+
+  "item.edit.reinstate.header": "Genindsæt item: {{ id }}",
+
+  "item.edit.reinstate.success": "The item was reinstated successfully",
+
+
+
+  "item.edit.relationships.discard-button": "Discard",
+
+  "item.edit.relationships.edit.buttons.add": "Tilføj",
+
+  "item.edit.relationships.edit.buttons.remove": "Fjern",
+
+  "item.edit.relationships.edit.buttons.undo": "Undo changes",
+
+  "item.edit.relationships.no-relationships": "No relationships",
+
+  "item.edit.relationships.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
+
+  "item.edit.relationships.notifications.discarded.title": "Changes discarded",
+
+  "item.edit.relationships.notifications.failed.title": "Error editing relationships",
+
+  "item.edit.relationships.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+
+  "item.edit.relationships.notifications.outdated.title": "Changes outdated",
+
+  "item.edit.relationships.notifications.saved.content": "Your changes to this item's relationships were saved.",
+
+  "item.edit.relationships.notifications.saved.title": "Relationships saved",
+
+  "item.edit.relationships.reinstate-button": "Undo",
+
+  "item.edit.relationships.save-button": "Save",
+
+  "item.edit.relationships.no-entity-type": "Tilføj 'dspace.entity.type' metadata to enable relationships for this item",
+
+
+  "item.edit.return": "Tilbage",
+
+
+  "item.edit.tabs.bitstreams.head": "Bitstreams",
+
+  "item.edit.tabs.bitstreams.title": "Item Rediger - Bitstreams",
+
+  "item.edit.tabs.curate.head": "Curate",
+
+  "item.edit.tabs.curate.title": "Item Rediger - Curate",
+
+  "item.edit.tabs.metadata.head": "Metadata",
+
+  "item.edit.tabs.metadata.title": "Item Rediger -  Metadata",
+
+  "item.edit.tabs.relationships.head": "Relationships",
+
+  "item.edit.tabs.relationships.title": "Item Rediger - Relationships",
+
+  "item.edit.tabs.status.buttons.authorizations.button": "Forfatterizations...",
+
+  "item.edit.tabs.status.buttons.authorizations.label": "Rediger item's authorization policies",
+
+  "item.edit.tabs.status.buttons.delete.button": "Permanently delete",
+
+  "item.edit.tabs.status.buttons.delete.label": "Completely expunge item",
+
+  "item.edit.tabs.status.buttons.mappedSamlings.button": "Mapped collections",
+
+  "item.edit.tabs.status.buttons.mappedSamlings.label": "Manage mapped collections",
+
+  "item.edit.tabs.status.buttons.move.button": "Flyt...",
+
+  "item.edit.tabs.status.buttons.move.label": "Flyt item to another collection",
+
+  "item.edit.tabs.status.buttons.private.button": "Make it private...",
+
+  "item.edit.tabs.status.buttons.private.label": "Make item private",
+
+  "item.edit.tabs.status.buttons.public.button": "Make it public...",
+
+  "item.edit.tabs.status.buttons.public.label": "Make item public",
+
+  "item.edit.tabs.status.buttons.reinstate.button": "Genindsæt...",
+
+  "item.edit.tabs.status.buttons.reinstate.label": "Genindsæt item into the repository",
+
+  "item.edit.tabs.status.buttons.unauthorized": "You're not authorized to perform this action",
+
+  "item.edit.tabs.status.buttons.withdraw.button": "Træk tilbage...",
+
+  "item.edit.tabs.status.buttons.withdraw.label": "Træk tilbage item from the repository",
+
+  "item.edit.tabs.status.description": "Welcome to the item management page. From here you can withdraw, reinstate, move or delete the item. You may also update or add new metadata / bitstreams on the other tabs.",
+
+  "item.edit.tabs.status.head": "Status",
+
+  "item.edit.tabs.status.labels.handle": "Handle",
+
+  "item.edit.tabs.status.labels.id": "Item Internal ID",
+
+  "item.edit.tabs.status.labels.itemPage": "Item Page",
+
+  "item.edit.tabs.status.labels.lastModified": "Last Modified",
+
+  "item.edit.tabs.status.title": "Item Rediger -  Status",
+
+  "item.edit.tabs.versionhistory.head": "Version History",
+
+  "item.edit.tabs.versionhistory.title": "Item Rediger - Version History",
+
+  "item.edit.tabs.versionhistory.under-construction": "Redigering or adding new versions is not yet possible in this user interface.",
+
+  "item.edit.tabs.view.head": "View Item",
+
+  "item.edit.tabs.view.title": "Item Rediger -  View",
+
+
+
+  "item.edit.withdraw.cancel": "Annuller",
+
+  "item.edit.withdraw.confirm": "Træk tilbage",
+
+  "item.edit.withdraw.description": "Are you sure this item should be withdrawn from the archive?",
+
+  "item.edit.withdraw.error": "An error occurred while withdrawing the item",
+
+  "item.edit.withdraw.header": "Træk tilbage item: {{ id }}",
+
+  "item.edit.withdraw.success": "The item was withdrawn successfully",
+
+
+
+  "item.listelement.badge": "Item",
+
+  "item.page.description": "Beskrivelse",
+
+  "item.page.journal-issn": "Journal ISSN",
+
+  "item.page.journal-title": "Journal Titel",
+
+  "item.page.publisher": "Publisher",
+
+  "item.page.titleprefix": "Item: ",
+
+  "item.page.volume-title": "Volume Titel",
+
+  "item.search.results.head": "Item Søg Results",
+
+  "item.search.title": "Item Søg",
+
+
+
+  "item.page.abstract": "Abstract",
+
+  "item.page.author": "Forfatters",
+
+  "item.page.citation": "Citation",
+
+  "item.page.collections": "Samlings",
+
+  "item.page.collections.loading": "Loading...",
+
+  "item.page.collections.load-more": "Load more",
+
+  "item.page.date": "Date",
+
+  "item.page.edit": "Rediger this item",
+
+  "item.page.files": "Files",
+
+  "item.page.filesection.description": "Beskrivelse:",
+
+  "item.page.filesection.download": "Download",
+
+  "item.page.filesection.format": "Format:",
+
+  "item.page.filesection.name": "Navn:",
+
+  "item.page.filesection.size": "Size:",
+
+  "item.page.journal.search.title": "Articles in this journal",
+
+  "item.page.link.full": "Full item page",
+
+  "item.page.link.simple": "Simple item page",
+
+  "item.page.person.search.title": "Articles by this author",
+
+  "item.page.related-items.view-more": "Show {{ amount }} more",
+
+  "item.page.related-items.view-less": "Hide last {{ amount }}",
+
+  "item.page.relationships.isForfatterOfPublication": "Publications",
+
+  "item.page.relationships.isJournalOfPublication": "Publications",
+
+  "item.page.relationships.isOrgUnitOfPerson": "Forfatters",
+
+  "item.page.relationships.isOrgUnitOfProject": "Research Projects",
+
+  "item.page.subject": "Keywords",
+
+  "item.page.uri": "URI",
+
+  "item.page.bitstreams.view-more": "Show more",
+
+  "item.page.bitstreams.collapse": "Collapse",
+
+  "item.page.filesection.original.bundle" : "Original bundle",
+
+  "item.page.filesection.license.bundle" : "Licens bundle",
+
+  "item.page.return": "Tilbage",
+
+  "item.page.version.create": "Create new version",
+
+  "item.page.version.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
+
+  "item.preview.dc.identifier.uri": "Identifier:",
+
+  "item.preview.dc.contributor.author": "Forfatters:",
+
+  "item.preview.dc.date.issued": "Published date:",
+
+  "item.preview.dc.description.abstract": "Abstract:",
+
+  "item.preview.dc.identifier.other": "Other identifier:",
+
+  "item.preview.dc.language.iso": "Language:",
+
+  "item.preview.dc.subject": "Emnes:",
+
+  "item.preview.dc.title": "Titel:",
+
+  "item.preview.person.familyNavn": "Surname:",
+
+  "item.preview.person.givenNavn": "Navn:",
+
+  "item.preview.person.identifier.orcid": "ORCID:",
+
+  "item.preview.project.funder.name": "Funder:",
+
+  "item.preview.project.funder.identifier": "Funder Identifier:",
+
+  "item.preview.oaire.awardNumber": "Funding ID:",
+
+  "item.preview.dc.title.alternative": "Acronym:",
+
+  "item.preview.dc.coverage.spatial": "Jurisdiction:",
+
+  "item.preview.oaire.fundingStream": "Funding Stream:",
+
+
+
+  "item.select.confirm": "Bekræft valgte",
+
+  "item.select.empty": "No items to show",
+
+  "item.select.table.author": "Forfatter",
+
+  "item.select.table.collection": "Samling",
+
+  "item.select.table.title": "Titel",
+
+
+  "item.version.history.empty": "There are no other versions for this item yet.",
+
+  "item.version.history.head": "Version History",
+
+  "item.version.history.return": "Tilbage",
+
+  "item.version.history.selected": "Selected version",
+
+  "item.version.history.selected.alert": "You are currently viewing version {{version}} of the item.",
+
+  "item.version.history.table.version": "Version",
+
+  "item.version.history.table.item": "Item",
+
+  "item.version.history.table.editor": "Redigeror",
+
+  "item.version.history.table.date": "Date",
+
+  "item.version.history.table.summary": "Summary",
+
+  "item.version.history.table.workspaceItem": "Workspace item",
+
+  "item.version.history.table.workflowItem": "Workflow item",
+
+  "item.version.history.table.actions": "Action",
+
+  "item.version.history.table.action.editWorkspaceItem": "Rediger workspace item",
+
+  "item.version.history.table.action.editSummary": "Rediger summary",
+
+  "item.version.history.table.action.saveSummary": "Save summary edits",
+
+  "item.version.history.table.action.discardSummary": "Discard summary edits",
+
+  "item.version.history.table.action.newVersion": "Create new version from this one",
+
+  "item.version.history.table.action.deleteVersion": "Slet version",
+
+  "item.version.history.table.action.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
+
+
+  "item.version.notice": "This is not the latest version of this item. The latest version can be found <a href='{{destination}}'>here</a>.",
+
+
+  "item.version.create.modal.header": "New version",
+
+  "item.version.create.modal.text": "Create a new version for this item",
+
+  "item.version.create.modal.text.startingFrom": "starting from version {{version}}",
+
+  "item.version.create.modal.button.confirm": "Create",
+
+  "item.version.create.modal.button.confirm.tooltip": "Create new version",
+
+  "item.version.create.modal.button.cancel": "Annuller",
+
+  "item.version.create.modal.button.cancel.tooltip": "Do not create new version",
+
+  "item.version.create.modal.form.summary.label": "Summary",
+
+  "item.version.create.modal.form.summary.placeholder": "Insert the summary for the new version",
+
+  "item.version.create.notification.success" : "New version has been created with version number {{version}}",
+
+  "item.version.create.notification.failure" : "New version has not been created",
+
+  "item.version.create.notification.inProgress" : "A new version cannot be created because there is an inprogress submission in the version history",
+
+
+  "item.version.delete.modal.header": "Slet version",
+
+  "item.version.delete.modal.text": "Do you want to delete version {{version}}?",
+
+  "item.version.delete.modal.button.confirm": "Slet",
+
+  "item.version.delete.modal.button.confirm.tooltip": "Slet this version",
+
+  "item.version.delete.modal.button.cancel": "Annuller",
+
+  "item.version.delete.modal.button.cancel.tooltip": "Do not delete this version",
+
+  "item.version.delete.notification.success" : "Version number {{version}} has been deleted",
+
+  "item.version.delete.notification.failure" : "Version number {{version}} has not been deleted",
+
+
+  "item.version.edit.notification.success" : "The summary of version number {{version}} has been changed",
+
+  "item.version.edit.notification.failure" : "The summary of version number {{version}} has not been changed",
+
+
+
+  "journal.listelement.badge": "Journal",
+
+  "journal.page.description": "Beskrivelse",
+
+  "journal.page.edit": "Rediger this item",
+
+  "journal.page.editor": "Redigeror-in-Chief",
+
+  "journal.page.issn": "ISSN",
+
+  "journal.page.publisher": "Publisher",
+
+  "journal.page.titleprefix": "Journal: ",
+
+  "journal.search.results.head": "Journal Søg Results",
+
+  "journal.search.title": "Journal Søg",
+
+
+
+  "journalissue.listelement.badge": "Journal Issue",
+
+  "journalissue.page.description": "Beskrivelse",
+
+  "journalissue.page.edit": "Rediger this item",
+
+  "journalissue.page.issuedate": "Udstedelsesdato",
+
+  "journalissue.page.journal-issn": "Journal ISSN",
+
+  "journalissue.page.journal-title": "Journal Titel",
+
+  "journalissue.page.keyword": "Keywords",
+
+  "journalissue.page.number": "Number",
+
+  "journalissue.page.titleprefix": "Journal Issue: ",
+
+
+
+  "journalvolume.listelement.badge": "Journal Volume",
+
+  "journalvolume.page.description": "Beskrivelse",
+
+  "journalvolume.page.edit": "Rediger this item",
+
+  "journalvolume.page.issuedate": "Udstedelsesdato",
+
+  "journalvolume.page.titleprefix": "Journal Volume: ",
+
+  "journalvolume.page.volume": "Volume",
+
+
+  "iiifsearchable.listelement.badge": "Document Media",
+
+  "iiifsearchable.page.titleprefix": "Document: ",
+
+  "iiifsearchable.page.doi": "Permanent Link: ",
+
+  "iiifsearchable.page.issue": "Issue: ",
+
+  "iiifsearchable.page.description": "Beskrivelse: ",
+
+  "iiifviewer.fullscreen.notice": "Use full screen for better viewing.",
+
+  "iiif.listelement.badge": "Image Media",
+
+  "iiif.page.titleprefix": "Image: ",
+
+  "iiif.page.doi": "Permanent Link: ",
+
+  "iiif.page.issue": "Issue: ",
+
+  "iiif.page.description": "Beskrivelse: ",
+
+
+  "loading.bitstream": "Loading bitstream...",
+
+  "loading.bitstreams": "Loading bitstreams...",
+
+  "loading.browse-by": "Loading items...",
+
+  "loading.browse-by-page": "Loading page...",
+
+  "loading.collection": "Loading collection...",
+
+  "loading.collections": "Loading collections...",
+
+  "loading.content-source": "Loading content source...",
+
+  "loading.community": "Loading community...",
+
+  "loading.default": "Loading...",
+
+  "loading.item": "Loading item...",
+
+  "loading.items": "Loading items...",
+
+  "loading.mydspace-results": "Loading items...",
+
+  "loading.objects": "Loading...",
+
+  "loading.recent-submissions": "Loading recent submissions...",
+
+  "loading.search-results": "Loading search results...",
+
+  "loading.sub-collections": "Loading sub-collections...",
+
+  "loading.sub-communities": "Loading sub-communities...",
+
+  "loading.top-level-communities": "Loading top-level communities...",
+
+
+
+  "login.form.email": "E-mail address",
+
+  "login.form.forgot-password": "Have you forgotten your password?",
+
+  "login.form.header": "Please log in to DSpace",
+
+  "login.form.new-user": "New user? Click here to register.",
+
+  "login.form.or-divider": "or",
+
+  "login.form.oidc": "Log in with OIDC",
+
+  "login.form.password": "Password",
+
+  "login.form.shibboleth": "Log in with Shibboleth",
+
+  "login.form.submit": "Log in",
+
+  "login.title": "Login",
+
+  "login.breadcrumbs": "Login",
+
+
+
+  "logout.form.header": "Log out from DSpace",
+
+  "logout.form.submit": "Log out",
+
+  "logout.title": "Logout",
+
+
+
+  "menu.header.admin": "Management",
+
+  "menu.header.image.logo": "Repository logo",
+
+  "menu.header.admin.description": "Management menu",
+
+
+
+  "menu.section.access_control": "Access Control",
+
+  "menu.section.access_control_authorizations": "Forfatterizations",
+
+  "menu.section.access_control_groups": "Grupper",
+
+  "menu.section.access_control_people": "People",
+
+
+
+  "menu.section.admin_search": "Admin Søg",
+
+
+
+  "menu.section.browse_community": "This Community",
+
+  "menu.section.browse_community_by_author": "By Forfatter",
+
+  "menu.section.browse_community_by_issue_date": "By Udstedelsesdato",
+
+  "menu.section.browse_community_by_title": "By Titel",
+
+  "menu.section.browse_global": "All of DSpace",
+
+  "menu.section.browse_global_by_author": "By Forfatter",
+
+  "menu.section.browse_global_by_dateissued": "By Udstedelsesdato",
+
+  "menu.section.browse_global_by_subject": "By Emne",
+
+  "menu.section.browse_global_by_title": "By Titel",
+
+  "menu.section.browse_global_communities_and_collections": "Communities & Samlings",
+
+
+
+  "menu.section.control_panel": "Control Panel",
+
+  "menu.section.curation_task": "Curation Task",
+
+
+
+  "menu.section.edit": "Rediger",
+
+  "menu.section.edit_collection": "Samling",
+
+  "menu.section.edit_community": "Community",
+
+  "menu.section.edit_item": "Item",
+
+
+
+  "menu.section.export": "Export",
+
+  "menu.section.export_collection": "Samling",
+
+  "menu.section.export_community": "Community",
+
+  "menu.section.export_item": "Item",
+
+  "menu.section.export_metadata": "Metadata",
+
+
+
+  "menu.section.icon.access_control": "Access Control menu section",
+
+  "menu.section.icon.admin_search": "Admin search menu section",
+
+  "menu.section.icon.control_panel": "Control Panel menu section",
+
+  "menu.section.icon.curation_tasks": "Curation Task menu section",
+
+  "menu.section.icon.edit": "Rediger menu section",
+
+  "menu.section.icon.export": "Export menu section",
+
+  "menu.section.icon.find": "Find menu section",
+
+  "menu.section.icon.import": "Import menu section",
+
+  "menu.section.icon.new": "New menu section",
+
+  "menu.section.icon.pin": "Pin sidebar",
+
+  "menu.section.icon.processes": "Processes menu section",
+
+  "menu.section.icon.registries": "Registries menu section",
+
+  "menu.section.icon.statistics_task": "Statistics Task menu section",
+
+  "menu.section.icon.workflow": "Administer workflow menu section",
+
+  "menu.section.icon.unpin": "Unpin sidebar",
+
+
+
+  "menu.section.import": "Import",
+
+  "menu.section.import_batch": "Batch Import (ZIP)",
+
+  "menu.section.import_metadata": "Metadata",
+
+
+
+  "menu.section.new": "New",
+
+  "menu.section.new_collection": "Samling",
+
+  "menu.section.new_community": "Community",
+
+  "menu.section.new_item": "Item",
+
+  "menu.section.new_item_version": "Item Version",
+
+  "menu.section.new_process": "Process",
+
+
+
+  "menu.section.pin": "Pin sidebar",
+
+  "menu.section.unpin": "Unpin sidebar",
+
+
+
+  "menu.section.processes": "Processes",
+
+
+
+  "menu.section.registries": "Registries",
+
+  "menu.section.registries_format": "Format",
+
+  "menu.section.registries_metadata": "Metadata",
+
+
+
+  "menu.section.statistics": "Statistics",
+
+  "menu.section.statistics_task": "Statistics Task",
+
+
+
+  "menu.section.toggle.access_control": "Toggle Access Control section",
+
+  "menu.section.toggle.control_panel": "Toggle Control Panel section",
+
+  "menu.section.toggle.curation_task": "Toggle Curation Task section",
+
+  "menu.section.toggle.edit": "Toggle Rediger section",
+
+  "menu.section.toggle.export": "Toggle Export section",
+
+  "menu.section.toggle.find": "Toggle Find section",
+
+  "menu.section.toggle.import": "Toggle Import section",
+
+  "menu.section.toggle.new": "Toggle New section",
+
+  "menu.section.toggle.registries": "Toggle Registries section",
+
+  "menu.section.toggle.statistics_task": "Toggle Statistics Task section",
+
+
+  "menu.section.workflow": "Administrer Workflow",
+
+
+  "mydspace.breadcrumbs": "MyDSpace",
+
+  "mydspace.description": "",
+
+  "mydspace.general.text-here": "here",
+
+  "mydspace.messages.controller-help": "Select this option to send a message to item's submitter.",
+
+  "mydspace.messages.description-placeholder": "Insert your message here...",
+
+  "mydspace.messages.hide-msg": "Hide message",
+
+  "mydspace.messages.mark-as-read": "Mark as read",
+
+  "mydspace.messages.mark-as-unread": "Mark as unread",
+
+  "mydspace.messages.no-content": "No content.",
+
+  "mydspace.messages.no-messages": "No messages yet.",
+
+  "mydspace.messages.send-btn": "Send",
+
+  "mydspace.messages.show-msg": "Show message",
+
+  "mydspace.messages.subject-placeholder": "Emne...",
+
+  "mydspace.messages.submitter-help": "Select this option to send a message to controller.",
+
+  "mydspace.messages.title": "Messages",
+
+  "mydspace.messages.to": "To",
+
+  "mydspace.new-submission": "New submission",
+
+  "mydspace.new-submission-external": "Import metadata from external source",
+
+  "mydspace.new-submission-external-short": "Import metadata",
+
+  "mydspace.results.head": "Your submissions",
+
+  "mydspace.results.no-abstract": "No Abstract",
+
+  "mydspace.results.no-authors": "No Forfatters",
+
+  "mydspace.results.no-collections": "No Samlings",
+
+  "mydspace.results.no-date": "No Date",
+
+  "mydspace.results.no-files": "No Files",
+
+  "mydspace.results.no-results": "There were no items to show",
+
+  "mydspace.results.no-title": "No title",
+
+  "mydspace.results.no-uri": "No Uri",
+
+  "mydspace.search-form.placeholder": "Søg in mydspace...",
+
+  "mydspace.show.workflow": "Workflow tasks",
+
+  "mydspace.show.workspace": "Your Submissions",
+
+  "mydspace.status.archived": "Archived",
+
+  "mydspace.status.validation": "Validation",
+
+  "mydspace.status.waiting-for-controller": "Waiting for controller",
+
+  "mydspace.status.workflow": "Workflow",
+
+  "mydspace.status.workspace": "Workspace",
+
+  "mydspace.title": "MyDSpace",
+
+  "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
+
+  "mydspace.upload.upload-failed-manyentries": "Unprocessable file. Detected too many entries but allowed only one for file.",
+
+  "mydspace.upload.upload-failed-moreonefile": "Unprocessable request. Only one file is allowed.",
+
+  "mydspace.upload.upload-multiple-successful": "{{qty}} new workspace items created.",
+
+  "mydspace.upload.upload-successful": "New workspace item created. Click {{here}} for edit it.",
+
+  "mydspace.view-btn": "View",
+
+
+
+  "nav.browse.header": "All of DSpace",
+
+  "nav.community-browse.header": "By Community",
+
+  "nav.language": "Language switch",
+
+  "nav.login": "Log In",
+
+  "nav.logout": "User profile menu and Log Out",
+
+  "nav.main.description": "Main navigation bar",
+
+  "nav.mydspace": "MyDSpace",
+
+  "nav.profile": "Profile",
+
+  "nav.search": "Søg",
+
+  "nav.statistics.header": "Statistics",
+
+  "nav.stop-impersonating": "Stop impersonating EPerson",
+
+  "nav.toggle" : "Toggle navigation",
+
+  "nav.user.description" : "User profile bar",
+
+  "none.listelement.badge": "Item",
+
+
+  "orgunit.listelement.badge": "Organizational Unit",
+
+  "orgunit.page.city": "City",
+
+  "orgunit.page.country": "Country",
+
+  "orgunit.page.dateestablished": "Date established",
+
+  "orgunit.page.description": "Beskrivelse",
+
+  "orgunit.page.edit": "Rediger this item",
+
+  "orgunit.page.id": "ID",
+
+  "orgunit.page.titleprefix": "Organizational Unit: ",
+
+
+
+  "pagination.options.description": "Pagination options",
+
+  "pagination.results-per-page": "Results Per Page",
+
+  "pagination.showing.detail": "{{ range }} of {{ total }}",
+
+  "pagination.showing.label": "Now showing ",
+
+  "pagination.sort-direction": "Sort Options",
+
+
+
+  "person.listelement.badge": "Person",
+
+  "person.listelement.no-title": "No name found",
+
+  "person.page.birthdate": "Birth Date",
+
+  "person.page.edit": "Rediger this item",
+
+  "person.page.email": "E-mail Address",
+
+  "person.page.firstname": "Fornavn",
+
+  "person.page.jobtitle": "Job Titel",
+
+  "person.page.lastname": "Efternavn",
+
+  "person.page.link.full": "Show all metadata",
+
+  "person.page.orcid": "ORCID",
+
+  "person.page.staffid": "Staff ID",
+
+  "person.page.titleprefix": "Person: ",
+
+  "person.search.results.head": "Person Søg Results",
+
+  "person.search.title": "Person Søg",
+
+
+
+  "process.new.select-parameters": "Parameters",
+
+  "process.new.cancel": "Annuller",
+
+  "process.new.submit": "Save",
+
+  "process.new.select-script": "Script",
+
+  "process.new.select-script.placeholder": "Vælg a script...",
+
+  "process.new.select-script.required": "Script is required",
+
+  "process.new.parameter.file.upload-button": "Select file...",
+
+  "process.new.parameter.file.required": "Please select a file",
+
+  "process.new.parameter.string.required": "Parameter value is required",
+
+  "process.new.parameter.type.value": "value",
+
+  "process.new.parameter.type.file": "file",
+
+  "process.new.parameter.required.missing": "The following parameters are required but still missing:",
+
+  "process.new.notification.success.title": "Success",
+
+  "process.new.notification.success.content": "The process was successfully created",
+
+  "process.new.notification.error.title": "Error",
+
+  "process.new.notification.error.content": "An error occurred while creating this process",
+
+  "process.new.header": "Create a new process",
+
+  "process.new.title": "Create a new process",
+
+  "process.new.breadcrumbs": "Create a new process",
+
+
+
+  "process.detail.arguments" : "Arguments",
+
+  "process.detail.arguments.empty" : "This process doesn't contain any arguments",
+
+  "process.detail.back" : "Tilbage",
+
+  "process.detail.output" : "Process Output",
+
+  "process.detail.logs.button": "Retrieve process output",
+
+  "process.detail.logs.loading": "Retrieving",
+
+  "process.detail.logs.none": "This process has no output",
+
+  "process.detail.output-files" : "Output Files",
+
+  "process.detail.output-files.empty" : "This process doesn't contain any output files",
+
+  "process.detail.script" : "Script",
+
+  "process.detail.title" : "Process: {{ id }} - {{ name }}",
+
+  "process.detail.start-time" : "Start time",
+
+  "process.detail.end-time" : "Finish time",
+
+  "process.detail.status" : "Status",
+
+  "process.detail.create" : "Create similar process",
+
+
+
+  "process.overview.table.finish" : "Finish time (UTC)",
+
+  "process.overview.table.id" : "Process ID",
+
+  "process.overview.table.name" : "Navn",
+
+  "process.overview.table.start" : "Start time (UTC)",
+
+  "process.overview.table.status" : "Status",
+
+  "process.overview.table.user" : "User",
+
+  "process.overview.title": "Processes Overview",
+
+  "process.overview.breadcrumbs": "Processes Overview",
+
+  "process.overview.new": "New",
+
+
+  "profile.breadcrumbs": "Update Profile",
+
+  "profile.card.identify": "Identify",
+
+  "profile.card.security": "Security",
+
+  "profile.form.submit": "Save",
+
+  "profile.groups.head": "Forfatterization groups you belong to",
+
+  "profile.head": "Update Profile",
+
+  "profile.metadata.form.error.firstname.required": "Fornavn is required",
+
+  "profile.metadata.form.error.lastname.required": "Efternavn is required",
+
+  "profile.metadata.form.label.email": "E-mail Address",
+
+  "profile.metadata.form.label.firstname": "Fornavn",
+
+  "profile.metadata.form.label.language": "Language",
+
+  "profile.metadata.form.label.lastname": "Efternavn",
+
+  "profile.metadata.form.label.phone": "Contact Telephone",
+
+  "profile.metadata.form.notifications.success.content": "Your changes to the profile were saved.",
+
+  "profile.metadata.form.notifications.success.title": "Profile saved",
+
+  "profile.notifications.warning.no-changes.content": "No changes were made to the Profile.",
+
+  "profile.notifications.warning.no-changes.title": "No changes",
+
+  "profile.security.form.error.matching-passwords": "The passwords do not match.",
+
+  "profile.security.form.error.password-length": "The password should be at least 6 characters long.",
+
+  "profile.security.form.info": "Optionally, you can enter a new password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.",
+
+  "profile.security.form.label.password": "Password",
+
+  "profile.security.form.label.passwordrepeat": "Retype to confirm",
+
+  "profile.security.form.notifications.success.content": "Your changes to the password were saved.",
+
+  "profile.security.form.notifications.success.title": "Password saved",
+
+  "profile.security.form.notifications.error.title": "Error changing passwords",
+
+  "profile.security.form.notifications.error.not-long-enough": "The password has to be at least 6 characters long.",
+
+  "profile.security.form.notifications.error.not-same": "The provided passwords are not the same.",
+
+  "profile.title": "Update Profile",
+
+
+
+  "project.listelement.badge": "Research Project",
+
+  "project.page.contributor": "Contributors",
+
+  "project.page.description": "Beskrivelse",
+
+  "project.page.edit": "Rediger this item",
+
+  "project.page.expectedcompletion": "Expected Completion",
+
+  "project.page.funder": "Funders",
+
+  "project.page.id": "ID",
+
+  "project.page.keyword": "Keywords",
+
+  "project.page.status": "Status",
+
+  "project.page.titleprefix": "Research Project: ",
+
+  "project.search.results.head": "Project Søg Results",
+
+
+
+  "publication.listelement.badge": "Publication",
+
+  "publication.page.description": "Beskrivelse",
+
+  "publication.page.edit": "Rediger this item",
+
+  "publication.page.journal-issn": "Journal ISSN",
+
+  "publication.page.journal-title": "Journal Titel",
+
+  "publication.page.publisher": "Publisher",
+
+  "publication.page.titleprefix": "Publication: ",
+
+  "publication.page.volume-title": "Volume Titel",
+
+  "publication.search.results.head": "Publication Søg Results",
+
+  "publication.search.title": "Publication Søg",
+
+
+  "media-viewer.next": "Næste",
+
+  "media-viewer.previous": "Forudgående",
+
+  "media-viewer.playlist": "Playliste",
+
+
+  "register-email.title": "Ny brugerregistrering",
+
+  "register-page.create-profile.header": "Opret profil",
+
+  "register-page.create-profile.identification.header": "Identifikation",
+
+  "register-page.create-profile.identification.email": "E-mail Addresse",
+
+  "register-page.create-profile.identification.first-name": "Fornavn *",
+
+  "register-page.create-profile.identification.first-name.error": "Please fill in a Fornavn",
+
+  "register-page.create-profile.identification.last-name": "Efternavn *",
+
+  "register-page.create-profile.identification.last-name.error": "Please fill in a Efternavn",
+
+  "register-page.create-profile.identification.contact": "Contact Telephone",
+
+  "register-page.create-profile.identification.language": "Language",
+
+  "register-page.create-profile.security.header": "Security",
+
+  "register-page.create-profile.security.info": "Please enter a password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.",
+
+  "register-page.create-profile.security.label.password": "Password *",
+
+  "register-page.create-profile.security.label.passwordrepeat": "Retype to confirm *",
+
+  "register-page.create-profile.security.error.empty-password": "Please enter a password in the box below.",
+
+  "register-page.create-profile.security.error.matching-passwords": "The passwords do not match.",
+
+  "register-page.create-profile.security.error.password-length": "The password should be at least 6 characters long.",
+
+  "register-page.create-profile.submit": "Complete Registration",
+
+  "register-page.create-profile.submit.error.content": "Noget gik galt while registering a new user.",
+
+  "register-page.create-profile.submit.error.head": "Registration failed",
+
+  "register-page.create-profile.submit.success.content": "The registration was successful. You have been logged in as the created user.",
+
+  "register-page.create-profile.submit.success.head": "Registration completed",
+
+
+  "register-page.registration.header": "New user registration",
+
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+
+  "register-page.registration.email": "E-mail Address *",
+
+  "register-page.registration.email.error.required": "Please fill in an email address",
+
+  "register-page.registration.email.error.pattern": "Please fill in a valid email address",
+
+  "register-page.registration.email.hint": "This address will be verified and used as your login name.",
+
+  "register-page.registration.submit": "Register",
+
+  "register-page.registration.success.head": "Verification email sent",
+
+  "register-page.registration.success.content": "An email has been sent to {{ email }} containing a special URL and further instructions.",
+
+  "register-page.registration.error.head": "Error when trying to register email",
+
+  "register-page.registration.error.content": "An error occured when registering the following email address: {{ email }}",
+
+
+
+  "relationships.add.error.relationship-type.content": "No suitable match could be found for relationship type {{ type }} between the two items",
+
+  "relationships.add.error.server.content": "The server returned an error",
+
+  "relationships.add.error.title": "Unable to add relationship",
+
+  "relationships.isForfatterOf": "Forfatters",
+
+  "relationships.isForfatterOf.Person": "Forfatters (persons)",
+
+  "relationships.isForfatterOf.OrgUnit": "Forfatters (organizational units)",
+
+  "relationships.isIssueOf": "Journal Issues",
+
+  "relationships.isJournalIssueOf": "Journal Issue",
+
+  "relationships.isJournalOf": "Journals",
+
+  "relationships.isOrgUnitOf": "Organizational Units",
+
+  "relationships.isPersonOf": "Forfatters",
+
+  "relationships.isProjectOf": "Research Projects",
+
+  "relationships.isPublicationOf": "Publications",
+
+  "relationships.isPublicationOfJournalIssue": "Articles",
+
+  "relationships.isSingleJournalOf": "Journal",
+
+  "relationships.isSingleVolumeOf": "Journal Volume",
+
+  "relationships.isVolumeOf": "Journal Volumes",
+
+  "relationships.isContributorOf": "Contributors",
+
+  "relationships.isContributorOf.OrgUnit": "Contributor (Organizational Unit)",
+
+  "relationships.isContributorOf.Person": "Contributor",
+
+  "relationships.isFundingAgencyOf.OrgUnit": "Funder",
+
+
+  "repository.image.logo": "Repository logo",
+
+  "repository.title.prefix": "DSpace Angular :: ",
+
+  "repository.title.prefixDSpace": "DSpace Angular ::",
+
+
+  "resource-policies.add.button": "Tilføj",
+
+  "resource-policies.add.for.": "Tilføj a new policy",
+
+  "resource-policies.add.for.bitstream": "Tilføj a new Bitstream policy",
+
+  "resource-policies.add.for.bundle": "Tilføj a new Bundle policy",
+
+  "resource-policies.add.for.item": "Tilføj a new Item policy",
+
+  "resource-policies.add.for.community": "Tilføj a new Community policy",
+
+  "resource-policies.add.for.collection": "Tilføj a new Samling policy",
+
+  "resource-policies.create.page.heading": "Create new resource policy for ",
+
+  "resource-policies.create.page.failure.content": "An error occurred while creating the resource policy.",
+
+  "resource-policies.create.page.success.content": "Operation successful",
+
+  "resource-policies.create.page.title": "Create new resource policy",
+
+  "resource-policies.delete.btn": "Slet valgte",
+
+  "resource-policies.delete.btn.title": "Slet valgte resource policies",
+
+  "resource-policies.delete.failure.content": "An error occurred while deleting valgte resource policies.",
+
+  "resource-policies.delete.success.content": "Operation successful",
+
+  "resource-policies.edit.page.heading": "Rediger resource policy ",
+
+  "resource-policies.edit.page.failure.content": "An error occurred while editing the resource policy.",
+
+  "resource-policies.edit.page.success.content": "Operation successful",
+
+  "resource-policies.edit.page.title": "Rediger resource policy",
+
+  "resource-policies.form.action-type.label": "Select the action type",
+
+  "resource-policies.form.action-type.required": "You must select the resource policy action.",
+
+  "resource-policies.form.eperson-group-list.label": "The eperson or group that will be granted the permission",
+
+  "resource-policies.form.eperson-group-list.select.btn": "Select",
+
+  "resource-policies.form.eperson-group-list.tab.eperson": "Søg for a ePerson",
+
+  "resource-policies.form.eperson-group-list.tab.group": "Søg for a group",
+
+  "resource-policies.form.eperson-group-list.table.headers.action": "Action",
+
+  "resource-policies.form.eperson-group-list.table.headers.id": "ID",
+
+  "resource-policies.form.eperson-group-list.table.headers.name": "Navn",
+
+  "resource-policies.form.date.end.label": "End Date",
+
+  "resource-policies.form.date.start.label": "Start Date",
+
+  "resource-policies.form.description.label": "Beskrivelse",
+
+  "resource-policies.form.name.label": "Navn",
+
+  "resource-policies.form.policy-type.label": "Select the policy type",
+
+  "resource-policies.form.policy-type.required": "You must select the resource policy type.",
+
+  "resource-policies.table.headers.action": "Action",
+
+  "resource-policies.table.headers.date.end": "End Date",
+
+  "resource-policies.table.headers.date.start": "Start Date",
+
+  "resource-policies.table.headers.edit": "Rediger",
+
+  "resource-policies.table.headers.edit.group": "Rediger group",
+
+  "resource-policies.table.headers.edit.policy": "Rediger policy",
+
+  "resource-policies.table.headers.eperson": "EPerson",
+
+  "resource-policies.table.headers.group": "Group",
+
+  "resource-policies.table.headers.id": "ID",
+
+  "resource-policies.table.headers.name": "Navn",
+
+  "resource-policies.table.headers.policyType": "type",
+
+  "resource-policies.table.headers.title.for.bitstream": "Politikker for Bitstream",
+
+  "resource-policies.table.headers.title.for.bundle": "Politikker for Bundle",
+
+  "resource-policies.table.headers.title.for.item": "Politikker for Item",
+
+  "resource-policies.table.headers.title.for.community": "Politikker for Community",
+
+  "resource-policies.table.headers.title.for.collection": "Politikker for Samling",
+
+
+
+  "search.description": "",
+
+  "search.switch-configuration.title": "Show",
+
+  "search.title": "Søg",
+
+  "search.breadcrumbs": "Søg",
+
+  "search.search-form.placeholder": "Søg the repository ...",
+
+
+  "search.filters.applied.f.author": "Forfatter",
+
+  "search.filters.applied.f.dateIssued.max": "End date",
+
+  "search.filters.applied.f.dateIssued.min": "Start date",
+
+  "search.filters.applied.f.dateSubmitted": "Date submitted",
+
+  "search.filters.applied.f.discoverable": "Private",
+
+  "search.filters.applied.f.entityType": "Item Type",
+
+  "search.filters.applied.f.has_content_in_original_bundle": "Has files",
+
+  "search.filters.applied.f.itemtype": "Type",
+
+  "search.filters.applied.f.namedresourcetype": "Status",
+
+  "search.filters.applied.f.subject": "Emne",
+
+  "search.filters.applied.f.submitter": "Submitter",
+
+  "search.filters.applied.f.jobTitel": "Job Titel",
+
+  "search.filters.applied.f.birthDate.max": "End birth date",
+
+  "search.filters.applied.f.birthDate.min": "Start birth date",
+
+  "search.filters.applied.f.withdrawn": "Træk tilbagen",
+
+
+
+  "search.filters.filter.author.head": "Forfatter",
+
+  "search.filters.filter.author.placeholder": "Forfatter name",
+
+  "search.filters.filter.author.label": "Søg author name",
+
+  "search.filters.filter.birthDate.head": "Birth Date",
+
+  "search.filters.filter.birthDate.placeholder": "Birth Date",
+
+  "search.filters.filter.birthDate.label": "Søg birth date",
+
+  "search.filters.filter.collapse": "Collapse filter",
+
+  "search.filters.filter.creativeDatePublished.head": "Date Published",
+
+  "search.filters.filter.creativeDatePublished.placeholder": "Date Published",
+
+  "search.filters.filter.creativeDatePublished.label": "Søg date published",
+
+  "search.filters.filter.creativeWorkRedigeror.head": "Redigeror",
+
+  "search.filters.filter.creativeWorkRedigeror.placeholder": "Redigeror",
+
+  "search.filters.filter.creativeWorkRedigeror.label": "Søg editor",
+
+  "search.filters.filter.creativeWorkKeywords.head": "Emne",
+
+  "search.filters.filter.creativeWorkKeywords.placeholder": "Emne",
+
+  "search.filters.filter.creativeWorkKeywords.label": "Søg subject",
+
+  "search.filters.filter.creativeWorkPublisher.head": "Publisher",
+
+  "search.filters.filter.creativeWorkPublisher.placeholder": "Publisher",
+
+  "search.filters.filter.creativeWorkPublisher.label": "Søg publisher",
+
+  "search.filters.filter.dateIssued.head": "Date",
+
+  "search.filters.filter.dateIssued.max.placeholder": "Maximum Date",
+
+  "search.filters.filter.dateIssued.max.label": "End",
+
+  "search.filters.filter.dateIssued.min.placeholder": "Minimum Date",
+
+  "search.filters.filter.dateIssued.min.label": "Start",
+
+  "search.filters.filter.dateSubmitted.head": "Date submitted",
+
+  "search.filters.filter.dateSubmitted.placeholder": "Date submitted",
+
+  "search.filters.filter.dateSubmitted.label": "Søg date submitted",
+
+  "search.filters.filter.discoverable.head": "Private",
+
+  "search.filters.filter.withdrawn.head": "Træk tilbagen",
+
+  "search.filters.filter.entityType.head": "Item Type",
+
+  "search.filters.filter.entityType.placeholder": "Item Type",
+
+  "search.filters.filter.entityType.label": "Søg item type",
+
+  "search.filters.filter.expand": "Expand filter",
+
+  "search.filters.filter.has_content_in_original_bundle.head": "Has files",
+
+  "search.filters.filter.itemtype.head": "Type",
+
+  "search.filters.filter.itemtype.placeholder": "Type",
+
+  "search.filters.filter.itemtype.label": "Søg type",
+
+  "search.filters.filter.jobTitel.head": "Job Titel",
+
+  "search.filters.filter.jobTitel.placeholder": "Job Titel",
+
+  "search.filters.filter.jobTitel.label": "Søg job title",
+
+  "search.filters.filter.knowsLanguage.head": "Known language",
+
+  "search.filters.filter.knowsLanguage.placeholder": "Known language",
+
+  "search.filters.filter.knowsLanguage.label": "Søg known language",
+
+  "search.filters.filter.namedresourcetype.head": "Status",
+
+  "search.filters.filter.namedresourcetype.placeholder": "Status",
+
+  "search.filters.filter.namedresourcetype.label": "Søg status",
+
+  "search.filters.filter.objectpeople.head": "People",
+
+  "search.filters.filter.objectpeople.placeholder": "People",
+
+  "search.filters.filter.objectpeople.label": "Søg people",
+
+  "search.filters.filter.organizationAddressCountry.head": "Country",
+
+  "search.filters.filter.organizationAddressCountry.placeholder": "Country",
+
+  "search.filters.filter.organizationAddressCountry.label": "Søg country",
+
+  "search.filters.filter.organizationAddressLocality.head": "City",
+
+  "search.filters.filter.organizationAddressLocality.placeholder": "City",
+
+  "search.filters.filter.organizationAddressLocality.label": "Søg city",
+
+  "search.filters.filter.organizationFoundingDate.head": "Date Founded",
+
+  "search.filters.filter.organizationFoundingDate.placeholder": "Date Founded",
+
+  "search.filters.filter.organizationFoundingDate.label": "Søg date founded",
+
+  "search.filters.filter.scope.head": "Scope",
+
+  "search.filters.filter.scope.placeholder": "Scope filter",
+
+  "search.filters.filter.scope.label": "Søg scope filter",
+
+  "search.filters.filter.show-less": "Collapse",
+
+  "search.filters.filter.show-more": "Show more",
+
+  "search.filters.filter.subject.head": "Emne",
+
+  "search.filters.filter.subject.placeholder": "Emne",
+
+  "search.filters.filter.subject.label": "Søg subject",
+
+  "search.filters.filter.submitter.head": "Submitter",
+
+  "search.filters.filter.submitter.placeholder": "Submitter",
+
+  "search.filters.filter.submitter.label": "Søg submitter",
+
+
+
+  "search.filters.entityType.JournalIssue": "Journal Issue",
+
+  "search.filters.entityType.JournalVolume": "Journal Volume",
+
+  "search.filters.entityType.OrgUnit": "Organizational Unit",
+
+  "search.filters.has_content_in_original_bundle.true": "Yes",
+
+  "search.filters.has_content_in_original_bundle.false": "No",
+
+  "search.filters.discoverable.true": "No",
+
+  "search.filters.discoverable.false": "Yes",
+
+  "search.filters.withdrawn.true": "Yes",
+
+  "search.filters.withdrawn.false": "No",
+
+
+  "search.filters.head": "Filters",
+
+  "search.filters.reset": "Reset filters",
+
+  "search.filters.search.submit": "Submit",
+
+
+
+  "search.form.search": "Søg",
+
+  "search.form.search_dspace": "All repository",
+
+  "search.form.scope.all": "All of DSpace",
+
+
+
+  "search.results.head": "Søg Results",
+
+  "search.results.no-results": "Your search returned no results. Having trouble finding what you're looking for? Try putting",
+
+  "search.results.no-results-link": "quotes around it",
+
+  "search.results.empty": "Your search returned no results.",
+
+
+  "default.search.results.head": "Søg Results",
+
+
+  "search.sidebar.close": "Tilbage to results",
+
+  "search.sidebar.filters.title": "Filters",
+
+  "search.sidebar.open": "Søg Tools",
+
+  "search.sidebar.results": "results",
+
+  "search.sidebar.settings.rpp": "Results per page",
+
+  "search.sidebar.settings.sort-by": "Sort By",
+
+  "search.sidebar.settings.title": "Settings",
+
+
+
+  "search.view-switch.show-detail": "Show detail",
+
+  "search.view-switch.show-grid": "Show as grid",
+
+  "search.view-switch.show-list": "Show as list",
+
+
+
+  "sorting.ASC": "Ascending",
+
+  "sorting.DESC": "Descending",
+
+  "sorting.dc.title.ASC": "Titel Ascending",
+
+  "sorting.dc.title.DESC": "Titel Descending",
+
+  "sorting.score.ASC": "Least Relevant",
+
+  "sorting.score.DESC": "Most Relevant",
+
+  "sorting.dc.date.issued.ASC": "Date Issued Ascending",
+
+  "sorting.dc.date.issued.DESC": "Date Issued Descending",
+
+  "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+
+  "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+
+  "sorting.lastModified.ASC": "Last modified Ascending",
+
+  "sorting.lastModified.DESC": "Last modified Descending",
+
+
+  "statistics.title": "Statistics",
+
+  "statistics.header": "Statistics for {{ scope }}",
+
+  "statistics.breadcrumbs": "Statistics",
+
+  "statistics.page.no-data": "No data available",
+
+  "statistics.table.no-data": "No data available",
+
+  "statistics.table.title.TotalVisits": "Total visits",
+
+  "statistics.table.title.TotalVisitsPerMonth": "Total visits per måned",
+
+  "statistics.table.title.TotalDownloads": "File Visits",
+
+  "statistics.table.title.TopCountries": "Top country views",
+
+  "statistics.table.title.TopCities": "Top city views",
+
+  "statistics.table.header.views": "Views",
+
+
+
+  "submission.edit.breadcrumbs": "Rediger Submission",
+
+  "submission.edit.title": "Rediger Submission",
+
+  "submission.general.cancel": "Annuller",
+
+  "submission.general.cannot_submit": "You have not the privilege to make a new submission.",
+
+  "submission.general.deposit": "Deposit",
+
+  "submission.general.discard.confirm.cancel": "Annuller",
+
+  "submission.general.discard.confirm.info": "This operation can't be undone. Are you sure?",
+
+  "submission.general.discard.confirm.submit": "Yes, I'm sure",
+
+  "submission.general.discard.confirm.title": "Discard submission",
+
+  "submission.general.discard.submit": "Discard",
+
+  "submission.general.info.saved": "Saved",
+
+  "submission.general.info.pending-changes": "Unsaved changes",
+
+  "submission.general.save": "Save",
+
+  "submission.general.save-later": "Save for later",
+
+
+  "submission.import-external.page.title": "Import metadata from an external source",
+
+  "submission.import-external.title": "Import metadata from an external source",
+
+  "submission.import-external.title.Journal": "Import a journal from an external source",
+
+  "submission.import-external.title.JournalIssue": "Import a journal issue from an external source",
+
+  "submission.import-external.title.JournalVolume": "Import a journal volume from an external source",
+
+  "submission.import-external.title.OrgUnit": "Import a publisher from an external source",
+
+  "submission.import-external.title.Person": "Import a person from an external source",
+
+  "submission.import-external.title.Project": "Import a project from an external source",
+
+  "submission.import-external.title.Publication": "Import a publication from an external source",
+
+  "submission.import-external.title.none": "Import metadata from an external source",
+
+  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to DSpace.",
+
+  "submission.import-external.back-to-my-dspace": "Tilbage to MyDSpace",
+
+  "submission.import-external.search.placeholder": "Søg the external source",
+
+  "submission.import-external.search.button": "Søg",
+
+  "submission.import-external.search.button.hint": "Write some words to search",
+
+  "submission.import-external.search.source.hint": "Pick an external source",
+
+  "submission.import-external.source.arxiv": "arXiv",
+
+  "submission.import-external.source.loading": "Loading ...",
+
+  "submission.import-external.source.sherpaJournal": "SHERPA Journals",
+
+  "submission.import-external.source.sherpaJournalIssn": "SHERPA Journals by ISSN",
+
+  "submission.import-external.source.sherpaPublisher": "SHERPA Publishers",
+
+  "submission.import-external.source.openAIREFunding": "Funding OpenAIRE API",
+
+  "submission.import-external.source.orcid": "ORCID",
+
+  "submission.import-external.source.pubmed": "Pubmed",
+
+  "submission.import-external.source.lcname": "Library of Congress Navns",
+
+  "submission.import-external.preview.title": "Item Preview",
+
+  "submission.import-external.preview.subtitle": "The metadata below was imported from an external source. It will be pre-filled when you start the submission.",
+
+  "submission.import-external.preview.button.import": "Start submission",
+
+  "submission.import-external.preview.error.import.title": "Submission error",
+
+  "submission.import-external.preview.error.import.body": "An error occurs during the external source entry import process.",
+
+  "submission.sections.describe.relationship-lookup.close": "Close",
+
+  "submission.sections.describe.relationship-lookup.external-source.added": "tilføjet local entry to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isForfatterOfPublication": "Import remote author",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal": "Import remote journal",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal Issue": "Import remote journal issue",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal Volume": "Import remote journal volume",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isProjectOfPublication": "Project",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProjectOfPublication.added.new-entity": "New Entity Added!",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProjectOfPublication.title": "Project",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.openAIREFunding": "Funding OpenAIRE API",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isForfatterOfPublication.title": "Import Remote Forfatter",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isForfatterOfPublication.added.local-entity": "tilføjet local author to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isForfatterOfPublication.added.new-entity": "Successfully imported and added external author to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.authority": "Forfatterity",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.authority.new": "Import as a new local authority entry",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.cancel": "Annuller",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.collection": "Select a collection to import new entries to",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.entities": "Entities",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.entities.new": "Import as a new local entity",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.lcname": "Importing from LC Navn",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.orcid": "Importing from ORCID",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.sherpaJournal": "Importing from Sherpa Journal",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.sherpaPublisher": "Importing from Sherpa Publisher",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.pubmed": "Importing from PubMed",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.arxiv": "Importing from arXiv",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.import": "Import",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.title": "Import Remote Journal",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.added.local-entity": "tilføjet local journal to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.added.new-entity": "Successfully imported and added external journal to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal Issue.title": "Import Remote Journal Issue",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal Issue.added.local-entity": "tilføjet local journal issue to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal Issue.added.new-entity": "Successfully imported and added external journal issue to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal Volume.title": "Import Remote Journal Volume",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal Volume.added.local-entity": "tilføjet local journal volume to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal Volume.added.new-entity": "Successfully imported and added external journal volume to the selection",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.select": "Select a local match:",
+
+  "submission.sections.describe.relationship-lookup.search-tab.deselect-all": "Deselect all",
+
+  "submission.sections.describe.relationship-lookup.search-tab.deselect-page": "Deselect page",
+
+  "submission.sections.describe.relationship-lookup.search-tab.loading": "Loading...",
+
+  "submission.sections.describe.relationship-lookup.search-tab.placeholder": "Søg query",
+
+  "submission.sections.describe.relationship-lookup.search-tab.search": "Go",
+
+  "submission.sections.describe.relationship-lookup.search-tab.search-form.placeholder": "Søg...",
+
+  "submission.sections.describe.relationship-lookup.search-tab.select-all": "Select all",
+
+  "submission.sections.describe.relationship-lookup.search-tab.select-page": "Select page",
+
+  "submission.sections.describe.relationship-lookup.selected": "Selected {{ size }} items",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isForfatterOfPublication": "Local Forfatters ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalOfPublication": "Local Journals ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.Project": "Local Projects ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.Publication": "Local Publications ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.Person": "Local Forfatters ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.OrgUnit": "Local Organizational Units ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.DataPackage": "Local Data Packages ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.DataFile": "Local Data Files ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.Journal": "Local Journals ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalIssueOfPublication": "Local Journal Issues ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalIssue": "Local Journal Issues ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfPublication": "Local Journal Volumes ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalVolume": "Local Journal Volumes ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.sherpaJournal": "Sherpa Journals ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.sherpaPublisher": "Sherpa Publishers ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.orcid": "ORCID ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.lcname": "LC Navns ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.pubmed": "PubMed ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.arxiv": "arXiv ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfPublication": "Søg for Funding Agencies",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfPublication": "Søg for Funding",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isChildOrgUnitOf": "Søg for Organizational Units",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openAIREFunding": "Funding OpenAIRE API",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPublication": "Projects",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Funder of the Project",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.openAIREFunding": "Funding OpenAIRE API",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isProjectOfPublication": "Project",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfPublication": "Projects",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Funder of the Project",
+
+
+
+
+  "submission.sections.describe.relationship-lookup.selection-tab.search-form.placeholder": "Søg...",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.tab-title": "Current Selection ({{ count }})",
+
+  "submission.sections.describe.relationship-lookup.title.isJournalIssueOfPublication": "Journal Issues",
+  "submission.sections.describe.relationship-lookup.title.JournalIssue": "Journal Issues",
+
+  "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfPublication": "Journal Volumes",
+  "submission.sections.describe.relationship-lookup.title.JournalVolume": "Journal Volumes",
+
+  "submission.sections.describe.relationship-lookup.title.isJournalOfPublication": "Journals",
+
+  "submission.sections.describe.relationship-lookup.title.isForfatterOfPublication": "Forfatters",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Funding Agency",
+  "submission.sections.describe.relationship-lookup.title.Project": "Projects",
+
+  "submission.sections.describe.relationship-lookup.title.Publication": "Publications",
+
+  "submission.sections.describe.relationship-lookup.title.Person": "Forfatters",
+
+  "submission.sections.describe.relationship-lookup.title.OrgUnit": "Organizational Units",
+
+  "submission.sections.describe.relationship-lookup.title.DataPackage": "Data Packages",
+
+  "submission.sections.describe.relationship-lookup.title.DataFile": "Data Files",
+
+  "submission.sections.describe.relationship-lookup.title.Funding Agency": "Funding Agency",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingOfPublication": "Funding",
+
+  "submission.sections.describe.relationship-lookup.title.isChildOrgUnitOf": "Parent Organizational Unit",
+
+  "submission.sections.describe.relationship-lookup.search-tab.toggle-dropdown": "Toggle dropdown",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.settings": "Settings",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.no-selection": "Your selection is currently empty.",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isForfatterOfPublication": "Selected Forfatters",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalOfPublication": "Selected Journals",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfPublication": "Selected Journal Volume",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.Project": "Selected Projects",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.Publication": "Selected Publications",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.Person": "Selected Forfatters",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.OrgUnit": "Selected Organizational Units",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.DataPackage": "Selected Data Packages",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.DataFile": "Selected Data Files",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.Journal": "Selected Journals",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalIssueOfPublication": "Selected Issue",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.JournalVolume": "Selected Journal Volume",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isFundingAgencyOfPublication": "Selected Funding Agency",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isFundingOfPublication": "Selected Funding",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.JournalIssue": "Selected Issue",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isChildOrgUnitOf": "Selected Organizational Unit",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaJournal": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaPublisher": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.orcid": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.orcidv2": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.lcname": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.pubmed": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Søg Results",
+
+  "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don\'t you can still use it for this submission.",
+
+  "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Save a new name variant",
+
+  "submission.sections.describe.relationship-lookup.name-variant.notification.decline": "Use only for this submission",
+
+  "submission.sections.ccLicense.type": "Licens Type",
+
+  "submission.sections.ccLicense.select": "Select a license type…",
+
+  "submission.sections.ccLicense.change": "Change your license type…",
+
+  "submission.sections.ccLicense.none": "No licenses available",
+
+  "submission.sections.ccLicense.option.select": "Select an option…",
+
+  "submission.sections.ccLicense.link": "You’ve valgte the following license:",
+
+  "submission.sections.ccLicense.confirmation": "I grant the license above",
+
+  "submission.sections.general.add-more": "Tilføj more",
+
+  "submission.sections.general.collection": "Samling",
+
+  "submission.sections.general.deposit_error_notice": "There was an issue when submitting the item, please try again later.",
+
+  "submission.sections.general.deposit_success_notice": "Submission deposited successfully.",
+
+  "submission.sections.general.discard_error_notice": "There was an issue when discarding the item, please try again later.",
+
+  "submission.sections.general.discard_success_notice": "Submission discarded successfully.",
+
+  "submission.sections.general.metadata-extracted": "New metadata have been extracted and added to the <strong>{{sectionId}}</strong> section.",
+
+  "submission.sections.general.metadata-extracted-new-section": "New <strong>{{sectionId}}</strong> section has been added to submission.",
+
+  "submission.sections.general.no-collection": "No collection found",
+
+  "submission.sections.general.no-sections": "No options available",
+
+  "submission.sections.general.save_error_notice": "There was an issue when saving the item, please try again later.",
+
+  "submission.sections.general.save_success_notice": "Submission saved successfully.",
+
+  "submission.sections.general.search-collection": "Søg for a collection",
+
+  "submission.sections.general.sections_not_valid": "There are incomplete sections.",
+
+
+
+  "submission.sections.submit.progressbar.accessCondition": "Item access conditions",
+
+  "submission.sections.submit.progressbar.CClicense": "Creative commons license",
+
+  "submission.sections.submit.progressbar.describe.recycle": "Recycle",
+
+  "submission.sections.submit.progressbar.describe.stepcustom": "Describe",
+
+  "submission.sections.submit.progressbar.describe.stepone": "Describe",
+
+  "submission.sections.submit.progressbar.describe.steptwo": "Describe",
+
+  "submission.sections.submit.progressbar.detect-duplicate": "Potential duplicates",
+
+  "submission.sections.submit.progressbar.license": "Deposit license",
+
+  "submission.sections.submit.progressbar.upload": "Upload files",
+
+
+
+  "submission.sections.status.errors.title": "Errors",
+
+  "submission.sections.status.valid.title": "Valid",
+
+  "submission.sections.status.warnings.title": "Warnings",
+
+  "submission.sections.status.errors.aria": "has errors",
+
+  "submission.sections.status.valid.aria": "is valid",
+
+  "submission.sections.status.warnings.aria": "has warnings",
+
+  "submission.sections.toggle.open": "Open section",
+
+  "submission.sections.toggle.close": "Close section",
+
+  "submission.sections.toggle.aria.open": "Expand {{sectionHeader}} section",
+
+  "submission.sections.toggle.aria.close": "Collapse {{sectionHeader}} section",
+
+  "submission.sections.upload.delete.confirm.cancel": "Annuller",
+
+  "submission.sections.upload.delete.confirm.info": "This operation can't be undone. Are you sure?",
+
+  "submission.sections.upload.delete.confirm.submit": "Yes, I'm sure",
+
+  "submission.sections.upload.delete.confirm.title": "Slet bitstream",
+
+  "submission.sections.upload.delete.submit": "Slet",
+
+  "submission.sections.upload.download.title": "Download bitstream",
+
+  "submission.sections.upload.drop-message": "Drop files to attach them to the item",
+
+  "submission.sections.upload.edit.title": "Rediger bitstream",
+
+  "submission.sections.upload.form.access-condition-label": "Access condition type",
+
+  "submission.sections.upload.form.access-condition-hint": "Select an access condition to apply on the bitstream once the item is deposited",
+
+  "submission.sections.upload.form.date-required": "Date is required.",
+
+  "submission.sections.upload.form.date-required-from": "Grant access from date is required.",
+
+  "submission.sections.upload.form.date-required-until": "Grant access until date is required.",
+
+  "submission.sections.upload.form.from-label": "Grant access from",
+
+  "submission.sections.upload.form.from-hint": "Select the date from which the related access condition is applied",
+
+  "submission.sections.upload.form.from-placeholder": "From",
+
+  "submission.sections.upload.form.group-label": "Group",
+
+  "submission.sections.upload.form.group-required": "Group is required.",
+
+  "submission.sections.upload.form.until-label": "Grant access until",
+
+  "submission.sections.upload.form.until-hint": "Select the date until which the related access condition is applied",
+
+  "submission.sections.upload.form.until-placeholder": "Until",
+
+  "submission.sections.upload.header.policy.default.nolist": "Uploaded files in the {{collectionNavn}} collection will be accessible according to the following group(s):",
+
+  "submission.sections.upload.header.policy.default.withlist": "Please note that uploaded files in the {{collectionNavn}} collection will be accessible, in addition to what is explicitly decided for the single file, with the following group(s):",
+
+  "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files just dragging & dropping them everywhere in the page</strong>",
+
+  "submission.sections.upload.no-entry": "No",
+
+  "submission.sections.upload.no-file-uploaded": "No file uploaded yet.",
+
+  "submission.sections.upload.save-metadata": "Save metadata",
+
+  "submission.sections.upload.undo": "Annuller",
+
+  "submission.sections.upload.upload-failed": "Upload failed",
+
+  "submission.sections.upload.upload-successful": "Upload successful",
+
+  "submission.sections.accesses.form.discoverable-description": "When checked, this item will be discoverable in search/browse. When unchecked, the item will only be available via a direct link and will never appear in search/browse.",
+
+  "submission.sections.accesses.form.discoverable-label": "Discoverable",
+
+  "submission.sections.accesses.form.access-condition-label": "Access condition type",
+
+  "submission.sections.accesses.form.access-condition-hint": "Select an access condition to apply on the item once it is deposited",
+
+  "submission.sections.accesses.form.date-required": "Date is required.",
+
+  "submission.sections.accesses.form.date-required-from": "Grant access from date is required.",
+
+  "submission.sections.accesses.form.date-required-until": "Grant access until date is required.",
+
+  "submission.sections.accesses.form.from-label": "Grant access from",
+
+  "submission.sections.accesses.form.from-hint": "Select the date from which the related access condition is applied",
+
+  "submission.sections.accesses.form.from-placeholder": "From",
+
+  "submission.sections.accesses.form.group-label": "Group",
+
+  "submission.sections.accesses.form.group-required": "Group is required.",
+
+  "submission.sections.accesses.form.until-label": "Grant access until",
+
+  "submission.sections.accesses.form.until-hint": "Select the date until which the related access condition is applied",
+
+  "submission.sections.accesses.form.until-placeholder": "Until",
+
+
+  "submission.submit.breadcrumbs": "New submission",
+
+  "submission.submit.title": "New submission",
+
+
+
+  "submission.workflow.generic.delete": "Slet",
+
+  "submission.workflow.generic.delete-help": "If you would to discard this item, select \"Slet\".  You will then be asked to confirm it.",
+
+  "submission.workflow.generic.edit": "Rediger",
+
+  "submission.workflow.generic.edit-help": "Select this option to change the item's metadata.",
+
+  "submission.workflow.generic.view": "View",
+
+  "submission.workflow.generic.view-help": "Select this option to view the item's metadata.",
+
+
+
+  "submission.workflow.tasks.claimed.approve": "Approve",
+
+  "submission.workflow.tasks.claimed.approve_help": "If you have reviewed the item and it is suitable for inclusion in the collection, select \"Approve\".",
+
+  "submission.workflow.tasks.claimed.edit": "Rediger",
+
+  "submission.workflow.tasks.claimed.edit_help": "Select this option to change the item's metadata.",
+
+  "submission.workflow.tasks.claimed.reject.reason.info": "Please enter your reason for rejecting the submission into the box below, indicating whether the submitter may fix a problem and resubmit.",
+
+  "submission.workflow.tasks.claimed.reject.reason.placeholder": "Describe the reason of reject",
+
+  "submission.workflow.tasks.claimed.reject.reason.submit": "Reject item",
+
+  "submission.workflow.tasks.claimed.reject.reason.title": "Reason",
+
+  "submission.workflow.tasks.claimed.reject.submit": "Reject",
+
+  "submission.workflow.tasks.claimed.reject_help": "If you have reviewed the item and found it is <strong>not</strong> suitable for inclusion in the collection, select \"Reject\".  You will then be asked to enter a message indicating why the item is unsuitable, and whether the submitter should change something and resubmit.",
+
+  "submission.workflow.tasks.claimed.return": "Return to pool",
+
+  "submission.workflow.tasks.claimed.return_help": "Return the task to the pool so that another user may perform the task.",
+
+
+
+  "submission.workflow.tasks.generic.error": "Error occurred during operation...",
+
+  "submission.workflow.tasks.generic.processing": "Processing...",
+
+  "submission.workflow.tasks.generic.submitter": "Submitter",
+
+  "submission.workflow.tasks.generic.success": "Operation successful",
+
+
+
+  "submission.workflow.tasks.pool.claim": "Claim",
+
+  "submission.workflow.tasks.pool.claim_help": "Assign this task to yourself.",
+
+  "submission.workflow.tasks.pool.hide-detail": "Hide detail",
+
+  "submission.workflow.tasks.pool.show-detail": "Show detail",
+
+
+
+  "thumbnail.default.alt": "Thumbnail Image",
+
+  "thumbnail.default.placeholder": "No Thumbnail Available",
+
+  "thumbnail.project.alt": "Project Logo",
+
+  "thumbnail.project.placeholder": "Project Placeholder Image",
+
+  "thumbnail.orgunit.alt": "OrgUnit Logo",
+
+  "thumbnail.orgunit.placeholder": "OrgUnit Placeholder Image",
+
+  "thumbnail.person.alt": "Profile Picture",
+
+  "thumbnail.person.placeholder": "No Profile Picture Available",
+
+
+
+  "title": "DSpace",
+
+
+
+  "vocabulary-treeview.header": "Hierarchical tree view",
+
+  "vocabulary-treeview.load-more": "Load more",
+
+  "vocabulary-treeview.search.form.reset": "Reset",
+
+  "vocabulary-treeview.search.form.search": "Søg",
+
+  "vocabulary-treeview.search.no-result": "There were no items to show",
+
+  "vocabulary-treeview.tree.description.nsi": "The Norwegian Science Index",
+
+  "vocabulary-treeview.tree.description.srsc": "Research Emne Categories",
+
+
+
+  "uploader.browse": "browse",
+
+  "uploader.drag-message": "Drag & Drop your files here",
+
+  "uploader.delete.btn-title": "Slet",
+
+  "uploader.or": ", or ",
+
+  "uploader.processing": "Processing",
+
+  "uploader.queue-length": "Queue length",
+
+  "virtual-metadata.delete-item.info": "Select the types for which you want to save the virtual metadata as real metadata",
+
+  "virtual-metadata.delete-item.modal-head": "The virtual metadata of this relation",
+
+  "virtual-metadata.delete-relationship.modal-head": "Select the items for which you want to save the virtual metadata as real metadata",
+
+
+
+  "workspace.search.results.head": "Your submissions",
+
+  "workflowAdmin.search.results.head": "Administrer Workflow",
+
+  "workflow.search.results.head": "Workflow tasks",
+
+
+
+  "workflow-item.edit.breadcrumbs": "Rediger workflowitem",
+
+  "workflow-item.edit.title": "Rediger workflowitem",
+
+  "workflow-item.delete.notification.success.title": "Sletd",
+
+  "workflow-item.delete.notification.success.content": "This workflow item was successfully deleted",
+
+  "workflow-item.delete.notification.error.title": "Noget gik galt",
+
+  "workflow-item.delete.notification.error.content": "The workflow item kunne ikke slettes",
+
+  "workflow-item.delete.title": "Slet workflow item",
+
+  "workflow-item.delete.header": "Slet workflow item",
+
+  "workflow-item.delete.button.cancel": "Annuller",
+
+  "workflow-item.delete.button.confirm": "Slet",
+
+
+  "workflow-item.send-back.notification.success.title": "Sent back to submitter",
+
+  "workflow-item.send-back.notification.success.content": "This workflow item was successfully sent back to the submitter",
+
+  "workflow-item.send-back.notification.error.title": "Noget gik galt",
+
+  "workflow-item.send-back.notification.error.content": "The workflow item could not be sent back to the submitter",
+
+  "workflow-item.send-back.title": "Send workflow item back to submitter",
+
+  "workflow-item.send-back.header": "Send workflow item back to submitter",
+
+  "workflow-item.send-back.button.cancel": "Annuller",
+
+  "workflow-item.send-back.button.confirm": "Send tilbage",
+
+  "workflow-item.view.breadcrumbs": "Workflow View",
+
+
+  "idle-modal.header": "Session will expire soon",
+
+  "idle-modal.info": "For security reasons, user sessions expire after {{ timeToExpire }} minutes of inactivity. Your session will expire soon. Would you like to extend it or log out?",
+
+  "idle-modal.log-out": "Log out",
+
+  "idle-modal.extend-session": "Extend session"
+}

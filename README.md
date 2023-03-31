@@ -7,3 +7,7 @@ and copy the keys you want to src/themes/RDL/assets/i18n/en.json5 file and then 
 yarn merge-i18n -s src/themes/RDL/assets/i18n
 
 ## DSpace 7.5
+To put the LOAR or "RDL" frontend together:
+* git clone https://github.com/DSpace/dspace-angular.git
+* git checkout dspace-7.5
+* TODO

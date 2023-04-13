@@ -5,7 +5,13 @@ debug: false
 # NOTE: these must be 'synced' with the 'dspace.ui.url' setting in your backend's local.cfg.
 ui:
   ssl: false
-  host: localhost
+  # NOTE: /etc/httpd/conf.d/dspace-devel.statsbiblioteket.dk.conf er sat sådan her, derfor er det
+  # ikke localhost, men 127.0.0.1
+  # ProxyPass /server       http://localhost:9841/server retry=10 connectiontimeout=5 timeout=300
+  # ProxyPass /     http://127.0.0.1:9842/  retry=10 connectiontimeout=5 timeout=300
+  # ProxyPreserveHost On
+  # RequestHeader set X-Forwarded-Proto "https"
+  host: 127.0.0.1
   port: 9842
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /

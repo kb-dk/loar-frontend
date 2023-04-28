@@ -5,13 +5,7 @@ debug: false
 # NOTE: these must be 'synced' with the 'dspace.ui.url' setting in your backend's local.cfg.
 ui:
   ssl: false
-  # NOTE: /etc/httpd/conf.d/dspace-devel.statsbiblioteket.dk.conf er sat sådan her, derfor er det
-  # ikke localhost, men 127.0.0.1
-  # ProxyPass /server       http://localhost:9841/server retry=10 connectiontimeout=5 timeout=300
-  # ProxyPass /     http://127.0.0.1:9842/  retry=10 connectiontimeout=5 timeout=300
-  # ProxyPreserveHost On
-  # RequestHeader set X-Forwarded-Proto "https"
-  host: 127.0.0.1
+  host: localhost
   port: 9842
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /
@@ -176,64 +170,65 @@ languages:
     active: true
   - code: ca
     label: Català
-    active: false
+    active: true
   - code: cs
     label: Čeština
-    active: false
+    active: true
   - code: de
     label: Deutsch
-    active: false
+    active: true
   - code: es
     label: Español
-    active: false
+    active: true
   - code: fr
     label: Français
-    active: false
+    active: true
   - code: gd
     label: Gàidhlig
-    active: false
+    active: true
   - code: lv
     label: Latviešu
-    active: false
+    active: true
   - code: hu
     label: Magyar
-    active: false
+    active: true
   - code: nl
     label: Nederlands
-    active: false
+    active: true
   - code: pl
     label: Polski
-    active: false
+    active: true
   - code: pt-PT
     label: Português
-    active: false
+    active: true
   - code: pt-BR
     label: Português do Brasil
-    active: false
+    active: true
   - code: fi
     label: Suomi
-    active: false
+    active: true
   - code: sv
     label: Svenska
-    active: false
+    active: true
   - code: tr
     label: Türkçe
-    active: false
+    active: true
   - code: kk
     label: Қазақ
-    active: false
+    active: true
   - code: bn
     label: বাংলা
-    active: false
+    active: true
   - code: hi
     label: हिंदी
-    active: false
+    active: true
   - code: el
     label: Ελληνικά
-    active: false
+    active: true
   - code: uk
     label: Yкраї́нська
-    active: false
+    active: true
+
 
 # Browse-By Pages
 browseBy:

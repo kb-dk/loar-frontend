@@ -1,7 +1,23 @@
 {
-  // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "Browse DSpace",
+  "repository.title.prefix": "LOAR :: ",
+  "repository.title.prefixDSpace": "LOAR Angular ::",
 
-  // DSpace default: "DSpace Angular :: "
-  "repository.title.prefix": "DSpace :: ",
+  "mydspace.breadcrumbs": "MyLOAR",
+  "mydspace.title": "MyLOAR",
+  "nav.mydspace": "MyLOAR",
+  "admin.registries.metadata.description": "The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas. However, LOAR requires the qualified Dublin Core schema.",
+  "dso-selector.set-scope.community.button": "Search all of LOAR",
+  "forgot-email.form.info": "Enter Register an account to subscribe to collections for email updates, and submit new items to LOAR.",
+  "home.top-level-communities.head": "Communities in LOAR",
+  "footer.link.dspace": "LOAR software",
+  "login.form.header": "Please log in to LOAR",
+  "logout.form.header": "Log out from LOAR",
+  "menu.section.browse_global": "Browse LOAR",
+  "mydspace.search-form.placeholder": "Search in myLOAR...",
+  "nav.browse.header": "All of LOAR",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to LOAR.",
+  "search.form.scope.all": "All of LOAR",
+  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to LOAR.",
+  "submission.import-external.back-to-my-dspace": "Back to MyLOAR",
+  title: "LOAR"
 }

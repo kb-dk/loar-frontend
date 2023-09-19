@@ -14,7 +14,7 @@ import { EagerThemeModule as LoarEagerThemeModule } from './RDL/eager-theme.modu
   imports: [
     // DSpaceEagerThemeModule,
     // CustomEagerThemeModule,
-    LoarEagerThemeModule
+    LoarEagerThemeModule,
   ],
 })
 export class EagerThemesModule {

@@ -1,0 +1,19 @@
+header {
+  background-color: #caf0fe;
+  nav{
+    color: #002E70;
+  }
+}
+
+.navigation-header {
+  background-color: #002E70;
+  color: white;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+
+  .navbar-brand img {
+    width: 95px;
+  }
+}

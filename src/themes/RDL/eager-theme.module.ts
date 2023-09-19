@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../app/shared/shared.module';
 import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
 import { NavbarComponent } from './app/navbar/navbar.component';
+import { SearchNavbarComponent } from './app/search-navbar/search-navbar.component';
 import { HeaderComponent } from './app/header/header.component';
 import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-navbar-wrapper.component';
 import { RootModule } from '../../app/root.module';
@@ -19,9 +20,32 @@ import {
 } from './app/entity-groups/journal-entities/item-pages/journal-volume/journal-volume.component';
 import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
 import { ItemSharedModule } from '../../app/item-page/item-shared.module';
+import {
+    CreateCollectionParentSelectorComponent
+} from './app/shared/dso-selector/modal-wrappers/create-collection-parent-selector/create-collection-parent-selector.component';
+import {
+    CreateCommunityParentSelectorComponent
+} from './app/shared/dso-selector/modal-wrappers/create-community-parent-selector/create-community-parent-selector.component';
+import {
+    CreateItemParentSelectorComponent
+} from './app/shared/dso-selector/modal-wrappers/create-item-parent-selector/create-item-parent-selector.component';
+import {
+    EditCollectionSelectorComponent
+} from './app/shared/dso-selector/modal-wrappers/edit-collection-selector/edit-collection-selector.component';
+import {
+    EditCommunitySelectorComponent
+} from './app/shared/dso-selector/modal-wrappers/edit-community-selector/edit-community-selector.component';
+import {
+    EditItemSelectorComponent
+} from './app/shared/dso-selector/modal-wrappers/edit-item-selector/edit-item-selector.component';
+
+import { CommunityListElementComponent } from './app/shared/object-list/community-list-element/community-list-element.component';
+import { CollectionListElementComponent} from './app/shared/object-list/collection-list-element/collection-list-element.component';
+import { CollectionDropdownComponent } from './app/shared/collection-dropdown/collection-dropdown.component';
 import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-by.module';
 import { ResultsBackButtonModule } from '../../app/shared/results-back-button/results-back-button.module';
 import { DsoPageModule } from '../../app/shared/dso-page/dso-page.module';
+import { FileDownloadLinkComponent } from './app/shared/file-download-link/file-download-link.component';
 
 
 /**
@@ -34,6 +58,11 @@ const ENTRY_COMPONENTS = [
   JournalVolumeComponent,
   PublicationComponent,
   UntypedItemComponent,
+
+  CommunityListElementComponent,
+  CollectionListElementComponent,
+  CollectionDropdownComponent,
+  FileDownloadLinkComponent,
 ];
 
 const DECLARATIONS = [
@@ -42,7 +71,14 @@ const DECLARATIONS = [
   HeaderComponent,
   HeaderNavbarWrapperComponent,
   NavbarComponent,
+  SearchNavbarComponent,
   FooterComponent,
+  CreateCollectionParentSelectorComponent,
+  CreateCommunityParentSelectorComponent,
+  CreateItemParentSelectorComponent,
+  EditCollectionSelectorComponent,
+  EditCommunitySelectorComponent,
+  EditItemSelectorComponent,
 ];
 
 @NgModule({

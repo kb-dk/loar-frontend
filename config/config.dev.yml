@@ -169,66 +169,7 @@ languages:
   - code: en
     label: English
     active: true
-  - code: ca
-    label: Català
-    active: true
-  - code: cs
-    label: Čeština
-    active: true
-  - code: de
-    label: Deutsch
-    active: true
-  - code: es
-    label: Español
-    active: true
-  - code: fr
-    label: Français
-    active: true
-  - code: gd
-    label: Gàidhlig
-    active: true
-  - code: lv
-    label: Latviešu
-    active: true
-  - code: hu
-    label: Magyar
-    active: true
-  - code: nl
-    label: Nederlands
-    active: true
-  - code: pl
-    label: Polski
-    active: true
-  - code: pt-PT
-    label: Português
-    active: true
-  - code: pt-BR
-    label: Português do Brasil
-    active: true
-  - code: fi
-    label: Suomi
-    active: true
-  - code: sv
-    label: Svenska
-    active: true
-  - code: tr
-    label: Türkçe
-    active: true
-  - code: kk
-    label: Қазақ
-    active: true
-  - code: bn
-    label: বাংলা
-    active: true
-  - code: hi
-    label: हिंदी
-    active: true
-  - code: el
-    label: Ελληνικά
-    active: true
-  - code: uk
-    label: Yкраї́нська
-    active: true
+
 
 
 # Browse-By Pages
@@ -317,26 +258,26 @@ themes:
   # # This theme will use the default bootstrap styling for DSpace components
   # - name: BASE_THEME_NAME
   #
-#  - name: dspace
-#    headTags:
-#      - tagName: link
-#        attributes:
-#          rel: icon
-#          href: assets/dspace/images/favicons/favicon.ico
-#          sizes: any
-#      - tagName: link
-#        attributes:
-#          rel: icon
-#          href: assets/dspace/images/favicons/favicon.svg
-#          type: image/svg+xml
-#      - tagName: link
-#        attributes:
-#          rel: apple-touch-icon
-#          href: assets/dspace/images/favicons/apple-touch-icon.png
-#      - tagName: link
-#        attributes:
-#          rel: manifest
-#          href: assets/dspace/images/favicons/manifest.webmanifest
+  #  - name: dspace
+  #    headTags:
+  #      - tagName: link
+  #        attributes:
+  #          rel: icon
+  #          href: assets/dspace/images/favicons/favicon.ico
+  #          sizes: any
+  #      - tagName: link
+  #        attributes:
+  #          rel: icon
+  #          href: assets/dspace/images/favicons/favicon.svg
+  #          type: image/svg+xml
+  #      - tagName: link
+  #        attributes:
+  #          rel: apple-touch-icon
+  #          href: assets/dspace/images/favicons/apple-touch-icon.png
+  #      - tagName: link
+  #        attributes:
+  #          rel: manifest
+  #          href: assets/dspace/images/favicons/manifest.webmanifest
   - name: RDL
     headTags:
       - tagName: link

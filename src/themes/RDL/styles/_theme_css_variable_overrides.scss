@@ -8,8 +8,6 @@ $light-gray: #D6D6D6;
 $dark-blue:   darken($dark-blue-100, 17%) !default;
 $link-color: $dark-blue-100;
 
-//$admin-sidebar-bg: darken(red, 17%);
-
 :root {
   --ds-header-bg: $sky-blue-100;
   --ds-header-logo-height: 30px;
@@ -20,4 +18,12 @@ $link-color: $dark-blue-100;
   --ds-header-navbar-border-bottom-color: $sky-blue-100;
   --ds-navbar-link-color: $dark-blue-100;
   --ds-navbar-link-color-hover: $dark-blue;
+
+  $admin-sidebar-bg: $dark-blue-100;
+  $admin-sidebar-active-bg: lighten($admin-sidebar-bg, 3%);
+  --ds-admin-sidebar-bg: #{$admin-sidebar-bg};
+  --ds-admin-sidebar-active-bg: #{$admin-sidebar-active-bg};
+  --ds-admin-sidebar-header-bg: #{darken($admin-sidebar-bg, 7%)};
+
+
 }

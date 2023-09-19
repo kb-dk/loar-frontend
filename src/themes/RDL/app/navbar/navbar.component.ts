@@ -7,9 +7,9 @@ import { slideMobileNav } from '../../../../app/shared/animations/slide';
  */
 @Component({
   selector: 'ds-navbar',
-  // styleUrls: ['./navbar.component.scss'],
+  //styleUrls: ['./navbar.component.scss'],
+  //templateUrl: './navbar.component.html',
   styleUrls: ['../../../../app/navbar/navbar.component.scss'],
-  // templateUrl: './navbar.component.html',
   templateUrl: '../../../../app/navbar/navbar.component.html',
   animations: [slideMobileNav]
 })

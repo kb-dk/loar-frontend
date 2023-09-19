@@ -1,18 +1,13 @@
 # NOTE: will log all redux actions and transfers in console
-debug: false
+debug: true
 
 # Angular Universal server settings
-# NOTE: these must be 'synced' with the 'dspace.ui.url' setting in your backend's local.cfg.
-#TODO
+# NOTE: these settings define where Node.js will start your UI application. Therefore, these
+# "ui" settings usually specify a localhost port/URL which is later proxied to a public URL (using Apache or similar)
 ui:
-  ssl: false
-  # NOTE: /etc/httpd/conf.d/dspace-devel.statsbiblioteket.dk.conf er sat sådan her, derfor er det
-  # ikke localhost, men 127.0.0.1
-  # ProxyPass /server       http://localhost:9841/server retry=10 connectiontimeout=5 timeout=300
-  # ProxyPass /     http://127.0.0.1:9842/  retry=10 connectiontimeout=5 timeout=300
-  # ProxyPreserveHost On
-  # RequestHeader set X-Forwarded-Proto "https"
-  host: 127.0.0.1
+  ssl: true
+  # NOTE: husk at checke /etc/httpd/conf.d/
+  host: loar.kb.dk
   port: 9842
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /
@@ -24,10 +19,11 @@ ui:
   useProxies: true
 
 # The REST API server settings
-# NOTE: these must be 'synced' with the 'dspace.server.url' setting in your backend's local.cfg.
+# NOTE: these settings define which (publicly available) REST API to use. They are usually
+# 'synced' with the 'dspace.server.url' setting in your backend's local.cfg.
 rest:
   ssl: true
-  host: dspace-devel.statsbiblioteket.dk
+  host: loar.kb.dk
   port: 443
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /server
@@ -43,7 +39,6 @@ cache:
   # NOTE: When updates are made to compiled *.js files, it will automatically bypass this browser cache, because
   # all compiled *.js files include a unique hash in their name which updates when content is modified.
   control: max-age=604800 # revalidate browser
-  #control: max-age=60 # revalidate browser
   autoSync:
     defaultTime: 0
     maxBufferSize: 100
@@ -175,66 +170,7 @@ languages:
   - code: en
     label: English
     active: true
-  - code: ca
-    label: Català
-    active: false
-  - code: cs
-    label: Čeština
-    active: false
-  - code: de
-    label: Deutsch
-    active: false
-  - code: es
-    label: Español
-    active: false
-  - code: fr
-    label: Français
-    active: false
-  - code: gd
-    label: Gàidhlig
-    active: false
-  - code: lv
-    label: Latviešu
-    active: false
-  - code: hu
-    label: Magyar
-    active: false
-  - code: nl
-    label: Nederlands
-    active: false
-  - code: pl
-    label: Polski
-    active: false
-  - code: pt-PT
-    label: Português
-    active: false
-  - code: pt-BR
-    label: Português do Brasil
-    active: false
-  - code: fi
-    label: Suomi
-    active: false
-  - code: sv
-    label: Svenska
-    active: false
-  - code: tr
-    label: Türkçe
-    active: false
-  - code: kk
-    label: Қазақ
-    active: false
-  - code: bn
-    label: বাংলা
-    active: false
-  - code: hi
-    label: हिंदी
-    active: false
-  - code: el
-    label: Ελληνικά
-    active: false
-  - code: uk
-    label: Yкраї́нська
-    active: false
+
 
 
 # Browse-By Pages
@@ -350,6 +286,7 @@ themes:
           rel: icon
           size: 192x192
           href: assets/RDL/images/favicon.png
+
 # The default bundles that should always be displayed as suggestions when you upload a new bundle
 bundle:
   standardBundles: [ ORIGINAL, THUMBNAIL, LICENSE ]

@@ -19,5 +19,7 @@
   "search.form.scope.all": "All of LOAR",
   "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to LOAR.",
   "submission.import-external.back-to-my-dspace": "Back to MyLOAR",
-  title: "LOAR"
+  title: "LOAR",
+  "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with LOAR. If the error persists, contact the administrator",
+  "info.feedback.info": "Thanks for sharing your feedback about the LOAR system. Your comments are appreciated!"
 }

@@ -1,4 +1,5 @@
 {
+  "repository.title": "LOAR",
   "repository.title.prefix": "LOAR :: ",
   "repository.title.prefixDSpace": "LOAR Angular ::",
 
@@ -9,7 +10,6 @@
   "dso-selector.set-scope.community.button": "Search all of LOAR",
   "forgot-email.form.info": "Enter Register an account to subscribe to collections for email updates, and submit new items to LOAR.",
   "home.top-level-communities.head": "Communities in LOAR",
-  "footer.link.dspace": "LOAR software",
   "login.form.header": "Please log in to LOAR",
   "logout.form.header": "Log out from LOAR",
   "menu.section.browse_global": "Browse LOAR",
@@ -21,5 +21,6 @@
   "submission.import-external.back-to-my-dspace": "Back to MyLOAR",
   title: "LOAR",
   "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with LOAR. If the error persists, contact the administrator",
-  "info.feedback.info": "Thanks for sharing your feedback about the LOAR system. Your comments are appreciated!"
+  "info.feedback.info": "Thanks for sharing your feedback about the LOAR system. Your comments are appreciated!",
+  "info.about.breadcrumbs": "About LOAR"
 }

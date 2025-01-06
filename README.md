@@ -6,8 +6,8 @@ To change the default Dspace texts, find the relevant keys in the /home/zahra/De
 and copy the keys you want to src/themes/RDL/assets/i18n/en.json5 file and then change the value for that key. Then run:
 yarn merge-i18n -s src/themes/RDL/assets/i18n
 
-## DSpace 7.5
+## DSpace 7.x
 To put the LOAR or "RDL" frontend together:
 * git clone https://github.com/DSpace/dspace-angular.git
-* git checkout dspace-7.5
+* git checkout dspace-7.x
 * TODO

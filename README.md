@@ -106,10 +106,10 @@ This should force a full reinstall with new node_modules and no cached stuff any
 
 This LOAR-specific code lives in the `RDL` theme.
 
-The theme should be placed under src/themes/RDL/ dspace-angular repo:
+The theme from this repo should be placed under src/themes/RDL/ dspace-angular repo:
 
 ```text
-src/themes/RDL/
+src/themes/RDL/ -> /dspace-angular/src/themes/RDL/
 ```
 
 In the themes folder is also a eager-themes.module.ts file. This needs to replace file with the same name in the dspace-angular repo.

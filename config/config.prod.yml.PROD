@@ -1,13 +1,13 @@
 # NOTE: will log all redux actions and transfers in console
-debug: true
+debug: false
 
 # Angular Universal server settings
 # NOTE: these settings define where Node.js will start your UI application. Therefore, these
 # "ui" settings usually specify a localhost port/URL which is later proxied to a public URL (using Apache or similar)
 ui:
-  ssl: true
+  ssl: false
   # NOTE: husk at checke /etc/httpd/conf.d/
-  host: loar.kb.dk
+  host: 127.0.0.1
   port: 9842
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /
